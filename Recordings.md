@@ -222,7 +222,7 @@ The `node:path` module provides utilities for working with file and directory pa
 
 - **System validations**:
 
-	* **/getCalls**:
+	- **/getCalls**:
 
 | Field     		| Validation                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -234,7 +234,7 @@ The `node:path` module provides utilities for working with file and directory pa
 
 
 
-	* **/uploadCall**:
+	- **/uploadCall**:
 
 
 | Field     		| Validation                                                                                              |
