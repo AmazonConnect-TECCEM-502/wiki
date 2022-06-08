@@ -209,8 +209,7 @@ The `node:path` module provides utilities for working with file and directory pa
 
 ### Brief explanation
 
-
-
+- **errors**:
 -** Routes**:
 
 | Routes       | What the Route Does                                                                                     |
