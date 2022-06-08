@@ -207,7 +207,8 @@ The `node:path` module provides utilities for working with file and directory pa
 
 ## BackEnd
 
-### Brief explanation
+- **Brief explanation**:
+
 
 
 - **Routes**:
@@ -220,6 +221,16 @@ The `node:path` module provides utilities for working with file and directory pa
 
 
 - **System validations**:
+
+-- **/getCalls**:
+
+| Routes       | What the Route Does                                                                                     |
+| ------------ | ------------------------------------------------------------------------------------------------------- |
+| /getCalls    | Get the all the calls videos from the S3 stored bucket and send the data contents as a result.          |
+| /uploadCall  | Send the new video to the S3 Bucket to store it for processing later                                    |
+| /postVideoBD | Send the new video to the database in RDS with the timestamp when it was created.                       |
+
+
 
 - **System Errors**:
 
