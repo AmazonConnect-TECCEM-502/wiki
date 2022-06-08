@@ -224,15 +224,43 @@ The `node:path` module provides utilities for working with file and directory pa
 
 	* **/getCalls**:
 
-| Routes       | What the Route Does                                                                                     |
-| ------------ | ------------------------------------------------------------------------------------------------------- |
-| /getCalls    | Get the all the calls videos from the S3 stored bucket and send the data contents as a result.          |
-| /uploadCall  | Send the new video to the S3 Bucket to store it for processing later                                    |
-| /postVideoBD | Send the new video to the database in RDS with the timestamp when it was created.                       |
+| Field     		| Validation                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------- |
+| accessKeyId    	| Wrong accessKeyId                                                                                       |
+| secretAccessKey  	| Wrong secretAccessKey                                                                                   |
+| region      		| Wrong region, in the region does not have the S3 Bucket or the region does not exists                   |
+| Bucket		| Wrong bucket, name, the bucket may be in other region or the bucket  does not exists                    |
+| Key 			| Wrong filename, the file may be in other bucket or the file does not exists                             |
+
+
+	* **/uploadCall**:
+
+| Field     		| Validation                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------- |
+| accessKeyId    	| Wrong accessKeyId                                                                                       |
+| secretAccessKey  	| Wrong secretAccessKey                                                                                   |
+| region      		| Wrong region, in the region does not have the S3 Bucket or the region does not exists                   |
+| Bucket		| Wrong bucket, name, the bucket may be in other region or the bucket  does not exists                    |
+| Key 			| Wrong filename, the file may be in other bucket or the file does not exists                             |
+
+	
+	* **/postVideoBD**:
+
+| Field     		| Validation                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------- |
+| File    		| The file was not created, or something happened when saving the database                                |
+| Agent_id  		| Wrong/Empty Agent_id, or something happened when saving the database                                    |
+| Date     		| Wrong timestamp, The date was not correctly captured when the file was created                          |
 
 
 
-- **System Errors**:
+- **System Status/Errors**:
+	
+	* **/getCalls**:
+
+	* **/uploadCall**:
+	
+	* **/postVideoBD**:
 
 - **Methods**:
 
