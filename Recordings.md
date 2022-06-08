@@ -87,30 +87,195 @@ or:
 ## BackEnd
 
 #### Express
-#### Aws-SDK
+
+The `Express` module provides a small, robust tooling for HTTP servers,
+making it a great solution for single page applications, websites, 
+hybrids, or public HTTP APIs.
+
+
+`$ npm install express`
+
+or:
+
+`yarn add express`
+
+#### AWS-SDK
+
+The preferred way to install the `AWS SDK` for Node.js  is to use the 
+npm package manager for Node.js. Simply type the following into a terminal window:
+
+
+`npm install aws-sdk`
+
+or:
+
+`yarn add luxon`
+
+
+Then, include the TypeScript definitions for node for use 
+in TypeScript projects and to support tools that can read .d.ts files. 
+
+
+`npm install --save-dev @types/node`
+
+
 #### Luxon
+
+`Luxon` is a library for working with dates and times in JavaScript.
+
+
+`npm install --save luxon`
+
+or:
+
+`yarn add luxon`
+
+
 #### Sequelize
+
+`Sequelize` is a promise-based Node.js ORM tool for Postgres, 
+MySQL, MariaDB, SQLite, DB2 and Microsoft SQL Server. 
+It features solid transaction support, relations, 
+eager and lazy loading, read replication and more.
+
+
+`npm install sequelize`
+
+or:
+
+`yarn add sequelize`
+
+
 #### Dynamodb
+
+`Dynamodb` is a DynamoDB data mapper for node.js.
+This module simplify data modeling and mapping to DynamoDB types,
+data validation, advanced chainable apis for query and scan operations and more.
+
+
+`npm install dynamodb`
+
+or: 
+
+`yarn add dynamodb`
+
+
+
 #### Joi
+
+`Joi` is the most powerful schema description language and data validator for JavaScript.
+
+`npm install joi`
+
+or:
+
+`yarn add joi`
 
 
 ## Embedded
 
-#### FS
-#### HTTP
-#### HTTPS
-#### Path
+#### Amazon Connect Streams
+
+The Amazon Connect Streams API (Streams) gives you the power to integrate your existing web applications 
+with Amazon Connect. Streams lets you embed the Contact Control Panel (CCP) and Customer Profiles app UI 
+into your page. It also enables you to handle agent and contact state events directly through an object oriented
+event driven interface
+
+`npm install amazon-connect-streams`
+
+or: 
+
+`yarn add amazon-connect-streams`
+
 #### Express
 
+The `Express` module provides a small, robust tooling for HTTP servers,
+making it a great solution for single page applications, websites, 
+hybrids, or public HTTP APIs.
+
+
+`$ npm install express`
+
+or:
+
+`yarn add express`
+
+
+#### FS
+
+The `node:fs` module enables interacting with the file system in a way modeled on standard POSIX functions.
+
+`npm install fs`
+
+or:
+
+`yarn add fs`
+
+
+#### HTTP
+
+`Http` is a simple, zero-configuration command-line static HTTP server. It is powerful enough for 
+production usage, but it's simple and hackable enough to be used for testing, local development
+and learning.
+
+
+`npm install http`
+
+or:
+
+`yarn add  http`
+
+
+#### HTTPS
+
+`Https` is the HTTP protocol over TLS/SSL. In Node.js this is implemented as a separate module.
+
+`npm install https`
+
+or:
+
+`yarn add https`
+
+#### Path
+
+The `node:path` module provides utilities for working with file and directory paths.
+
+
+`npm install --save path`
+
+or: 
+
+
+`yarn add path`
 
 #
 
-##  Coding
+##  Usage
 
 ## FrontEnd
+
+### Brief explanation
+### API ENDPOINT
+### System validations
+### System Errors
+### Methods
+
 ## BackEnd
+
+### Brief explanation
+### Routes
+### System validations
+### System Errors
+### Methods
+
 ## Embedded
-## AWS
+
+### Brief explanation
+### Routes
+### System validations
+### System Errors
+### Methods
+###permissions
 
 # 
 
