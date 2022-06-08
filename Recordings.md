@@ -49,7 +49,8 @@ order to correctly use the functionality of the area.
 
 `npm install axios`
 
-or
+or:
+
 `yarn add axios`
 
 ### BackEnd
