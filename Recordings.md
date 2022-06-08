@@ -209,8 +209,8 @@ The `node:path` module provides utilities for working with file and directory pa
 
 ### Brief explanation
 
-- **errors**:
--** Routes**:
+
+-**Routes**:
 
 | Routes       | What the Route Does                                                                                     |
 | ------------ | ------------------------------------------------------------------------------------------------------- |
@@ -219,10 +219,9 @@ The `node:path` module provides utilities for working with file and directory pa
 | /postVideoBD | Send the new video to the database in RDS with the timestamp when it was created.                       |
 
 
-
--** System validations**:
--** System Errors**:
--** Methods**:
+-**System validations**:
+-**System Errors**:
+-**Methods**:
 
 ## Embedded
 
