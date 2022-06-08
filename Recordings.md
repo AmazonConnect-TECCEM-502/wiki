@@ -226,8 +226,8 @@ The `node:path` module provides utilities for working with file and directory pa
 
 | Field     		| Validation                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------- |
-| accessKeyId    	| Wrong accessKeyId                                                                                       |
-| secretAccessKey  	| Wrong secretAccessKey                                                                                   |
+| accessKeyId    	| Must be a valid accessKeyId token                                                                       |
+| secretAccessKey  	| Must be a valid secretAccessKey token                                                                   |
 | region      		| Wrong region, in the region does not have the S3 Bucket or the region does not exists                   |
 | Bucket		| Wrong bucket, name, the bucket may be in other region or the bucket  does not exists                    |
 | Key 			| Wrong filename, the file may be in other bucket or the file does not exists                             |
@@ -239,8 +239,8 @@ The `node:path` module provides utilities for working with file and directory pa
 
 | Field     		| Validation                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------- |
-| accessKeyId    	| Wrong accessKeyId                                                                                       |
-| secretAccessKey  	| Wrong secretAccessKey                                                                                   |
+| accessKeyId    	| Must be a valid accessKeyId token                                                                       |
+| secretAccessKey  	| Must be a valid secretAccessKey token                                                                   |
 | region      		| Wrong region, in the region does not have the S3 Bucket or the region does not exists                   |
 | Bucket		| Wrong bucket, name, the bucket may be in other region or the bucket  does not exists                    |
 | Key 			| Wrong filename, the file may be in other bucket or the file does not exists                             |
@@ -262,11 +262,16 @@ The `node:path` module provides utilities for working with file and directory pa
 	
 * **/getCalls**:
 
+| Code                  | Message             | Http |
+| --------------------- | ------------------- | ---- |
+| UserNotFoundException | User does not exist | 500  |
+
+- **response**: HTTP status 200
+
 * **/uploadCall**:
 	
 * **/postVideoBD**:
 
-**Methods**:
 
 ## Embedded
 
