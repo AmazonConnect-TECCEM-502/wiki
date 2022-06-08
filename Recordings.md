@@ -211,7 +211,7 @@ The `node:path` module provides utilities for working with file and directory pa
 
 
 
-### Routes
+- ** Routes**:
 
 | Routes       | What the Route Does                                                                                     |
 | ------------ | ------------------------------------------------------------------------------------------------------- |
@@ -219,12 +219,11 @@ The `node:path` module provides utilities for working with file and directory pa
 | /uploadCall  | Send the new video to the S3 Bucket to store it for processing later                                    |
 | /postVideoBD | Send the new video to the database in RDS with the timestamp when it was created.                       |
 
-- **errors**:
 
 
-### System validations
-### System Errors
-### Methods
+- ** System validations**:
+- ** System Errors**:
+- ** Methods**:
 
 ## Embedded
 
