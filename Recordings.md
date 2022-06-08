@@ -197,7 +197,7 @@ The `node:path` module provides utilities for working with file and directory pa
 
 ## FrontEnd
 
-## Nota:  debe ser mas pantallazo y de los fecth que hace a los 
+## Nota:  debe ser mas pantallazo y de los fecth que hacen en el frontend (mas visual debes de ser tecnico)
 
 ### Brief explanation
 ### API ENDPOINT
@@ -213,13 +213,14 @@ The `node:path` module provides utilities for working with file and directory pa
 
 ### Routes
 
-| Routes       | Validation                                                                                              |
+| Routes       | What the Route Does                                                                                     |
 | ------------ | ------------------------------------------------------------------------------------------------------- |
-| /getCalls    | Must be a valid email that hasn't been registered                                                       |
-| /uploadCall  | Min length of 8 characters. Must contain at least one uppercase, one lowercase, one number and a symbol |
-| /postVideoBD | Must be a string                                                                                        |
-| last_name    | Must be a string                                                                                        |
-| birthdate    | Must be a string. Must be YYYY-MM-DD                                                                    |
+| /getCalls    | Get the all the calls videos from the S3 stored bucket and send the data contents as a result.          |
+| /uploadCall  | Send the new video to the S3 Bucket to store it for processing later                                    |
+| /postVideoBD | Send the new video to the database in RDS with the timestamp when it was created.                       |
+
+- **errors**:
+
 
 ### System validations
 ### System Errors
