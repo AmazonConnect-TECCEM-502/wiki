@@ -31,21 +31,50 @@ In order to use the Recordings sections available in the repositories,
 you must download and use the following libraries and configurations in 
 order to correctly use the functionality of the area.
 
-### FrontEnd
+## FrontEnd
 
 #### React
 
+The `react` package contains only the functionality necessary to define
+React components. It is typically used together with a React renderer 
+like react-dom for the web, or react-native for the native environments.
+
 `npm install react`
+
+or:
+
+`yarn add react`
 
 #### React-Media-Recorder
 
+`React-media-recorder` is a fully typed react component with render prop, 
+or a react hook, that can be used to:
+
+• Record audio/video
+
+• Record screen
+
+
 `npm i react-media-recorder`
+
+or:
+
+`yarn add react-media-recorder`
 
 #### React-Icons
 
+Include popular icons in your React projects easily with `react-icons`, 
+which utilizes ES6 imports that allows you to include only the icons that your project is using.
+
 `npm install react-icons --save`
 
+or:
+
+`yarn add react-icons`
+
 #### Axios
+
+Promise based HTTP client for the browser and node.js
 
 `npm install axios`
 
@@ -53,7 +82,9 @@ or:
 
 `yarn add axios`
 
-### BackEnd
+
+
+## BackEnd
 
 #### Express
 #### Aws-SDK
@@ -63,7 +94,7 @@ or:
 #### Joi
 
 
-### Embedded
+## Embedded
 
 #### FS
 #### HTTP
