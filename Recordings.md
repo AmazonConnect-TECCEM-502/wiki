@@ -31,6 +31,8 @@ In order to use the Recordings sections available in the repositories,
 you must download and use the following libraries and configurations in 
 order to correctly use the functionality of the area.
 
+Note: For the following commands, you could use `yarn add`,or its equivalent if necessary.
+
 ## FrontEnd
 
 #### React
@@ -41,9 +43,6 @@ like react-dom for the web, or react-native for the native environments.
 
 `npm install react`
 
-or:
-
-`yarn add react`
 
 #### React-Media-Recorder
 
@@ -57,9 +56,6 @@ or a react hook, that can be used to:
 
 `npm i react-media-recorder`
 
-or:
-
-`yarn add react-media-recorder`
 
 #### React-Icons
 
@@ -68,20 +64,11 @@ which utilizes ES6 imports that allows you to include only the icons that your p
 
 `npm install react-icons --save`
 
-or:
-
-`yarn add react-icons`
-
 #### Axios
 
 Promise based HTTP client for the browser and node.js
 
 `npm install axios`
-
-or:
-
-`yarn add axios`
-
 
 
 ## BackEnd
@@ -95,9 +82,6 @@ hybrids, or public HTTP APIs.
 
 `$ npm install express`
 
-or:
-
-`yarn add express`
 
 #### AWS-SDK
 
@@ -106,10 +90,6 @@ npm package manager for Node.js. Simply type the following into a terminal windo
 
 
 `npm install aws-sdk`
-
-or:
-
-`yarn add luxon`
 
 
 Then, include the TypeScript definitions for node for use 
@@ -126,10 +106,6 @@ in TypeScript projects and to support tools that can read .d.ts files.
 
 `npm install --save luxon`
 
-or:
-
-`yarn add luxon`
-
 
 #### Sequelize
 
@@ -141,10 +117,6 @@ eager and lazy loading, read replication and more.
 
 `npm install sequelize`
 
-or:
-
-`yarn add sequelize`
-
 
 #### Dynamodb
 
@@ -155,21 +127,12 @@ data validation, advanced chainable apis for query and scan operations and more.
 
 `npm install dynamodb`
 
-or: 
-
-`yarn add dynamodb`
-
-
 
 #### Joi
 
 `Joi` is the most powerful schema description language and data validator for JavaScript.
 
 `npm install joi`
-
-or:
-
-`yarn add joi`
 
 
 ## Embedded
@@ -183,9 +146,6 @@ event driven interface
 
 `npm install amazon-connect-streams`
 
-or: 
-
-`yarn add amazon-connect-streams`
 
 #### Express
 
@@ -196,20 +156,13 @@ hybrids, or public HTTP APIs.
 
 `$ npm install express`
 
-or:
-
-`yarn add express`
-
 
 #### FS
 
 The `node:fs` module enables interacting with the file system in a way modeled on standard POSIX functions.
 
+
 `npm install fs`
-
-or:
-
-`yarn add fs`
 
 
 #### HTTP
@@ -221,10 +174,6 @@ and learning.
 
 `npm install http`
 
-or:
-
-`yarn add  http`
-
 
 #### HTTPS
 
@@ -232,9 +181,6 @@ or:
 
 `npm install https`
 
-or:
-
-`yarn add https`
 
 #### Path
 
@@ -243,16 +189,15 @@ The `node:path` module provides utilities for working with file and directory pa
 
 `npm install --save path`
 
-or: 
 
-
-`yarn add path`
 
 #
 
 ##  Usage
 
 ## FrontEnd
+
+## Nota:  debe ser mas pantallazo y de los fecth que hace a los 
 
 ### Brief explanation
 ### API ENDPOINT
@@ -263,7 +208,19 @@ or:
 ## BackEnd
 
 ### Brief explanation
+
+
+
 ### Routes
+
+| Routes       | Validation                                                                                              |
+| ------------ | ------------------------------------------------------------------------------------------------------- |
+| /getCalls    | Must be a valid email that hasn't been registered                                                       |
+| /uploadCall  | Min length of 8 characters. Must contain at least one uppercase, one lowercase, one number and a symbol |
+| /postVideoBD | Must be a string                                                                                        |
+| last_name    | Must be a string                                                                                        |
+| birthdate    | Must be a string. Must be YYYY-MM-DD                                                                    |
+
 ### System validations
 ### System Errors
 ### Methods
@@ -275,7 +232,7 @@ or:
 ### System validations
 ### System Errors
 ### Methods
-###permissions
+### Permissions
 
 # 
 
