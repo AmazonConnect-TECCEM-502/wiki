@@ -15,19 +15,63 @@ with the relevant information for their classification, with the purpose of
 reproducing them in the same app, for their future for the internal agents of 
 the organization in case of be necessary.
 
+#
+
 ## Few Notes Before Start
 
 This application was divided into various repositories in order to generate the 
 functionalities of each area in a more orderly, clean and concise way, as well
 as to have order in the code sections that will be presented on this wiki.
 
+# 
+
 ## Getting Started
 
-## FrontEnd
-## BackEnd
-## Embedded
-## AWS
+In order to use the Recordings sections available in the repositories, 
+you must download and use the following libraries and configurations in 
+order to correctly use the functionality of the area.
 
+### FrontEnd
+
+#### React
+
+`npm install react`
+
+#### React-Media-Recorder
+
+`npm i react-media-recorder`
+
+#### React-Icons
+
+`npm install react-icons --save`
+
+#### Axios
+
+`npm install axios`
+
+or
+`yarn add axios`
+
+### BackEnd
+
+#### Express
+#### Aws-SDK
+#### Luxon
+#### Sequelize
+#### Dynamodb
+#### Joi
+
+
+### Embedded
+
+#### FS
+#### HTTP
+#### HTTPS
+#### Path
+#### Express
+
+
+#
 
 ##  Coding
 
@@ -35,6 +79,9 @@ as to have order in the code sections that will be presented on this wiki.
 ## BackEnd
 ## Embedded
 ## AWS
+
+# 
+
 
 ## Initialization
 
