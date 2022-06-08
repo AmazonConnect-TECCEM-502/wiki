@@ -1,13 +1,14 @@
-# Recordings (About)
+# Recordings
 
 Recordings is the area of the project where the application generates an mp4 file 
 of a recording, which contains:
 
-• Agent screen video
-• Agent and customer audio
-• Agent keystrokes
-• Call Rating
-• Video category
+1. Agent Screen Video.
+2. Agent and Customer Audio.
+3. Agent Keystrokes.
+4. Call Rating.
+5. Transcript (subtitles) of the Video.
+6. Video Category.
 
 Which are processed and stored in the database with their specific categories,
 with the relevant information for their classification, with the purpose of 
@@ -18,22 +19,22 @@ the organization in case of be necessary.
 
 This application was divided into various repositories in order to generate the 
 functionalities of each area in a more orderly, clean and concise way, as well
-as to have order in the code sections that will be presented later.
+as to have order in the code sections that will be presented on this wiki.
 
 ## Getting Started
 
-### FrontEnd
-### BackEnd
-### Embedded
-### AWS
+## FrontEnd
+## BackEnd
+## Embedded
+## AWS
 
 
 ##  Coding
 
-### FrontEnd
-### BackEnd
-### Embedded
-### AWS
+## FrontEnd
+## BackEnd
+## Embedded
+## AWS
 
 ## Initialization
 
