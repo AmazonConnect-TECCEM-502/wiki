@@ -209,7 +209,9 @@ The `node:path` module provides utilities for working with file and directory pa
 
 **Brief explanation**:
 
-
+For this section, you will find the routes, processes and models that are necessary for the processing, 
+handling and storage of the videos; which are used as services in the Frontend sections and in AWS services
+in order to carry out the functionalities of the previously seen area.
 
 **Routes**:
 
@@ -226,8 +228,8 @@ The `node:path` module provides utilities for working with file and directory pa
 
 | Field     		| Validation                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------- |
-| accessKeyId    	| Must be a valid accessKeyId token                                                                       |
-| secretAccessKey  	| Must be a valid secretAccessKey token                                                                   |
+| accessKeyId    	| Must be a valid AWS accessKeyId token                                                                       |
+| secretAccessKey  	| Must be a valid AWS secretAccessKey token                                                                   |
 | region      		| Wrong region, in the region does not have the S3 Bucket or the region does not exists                   |
 | Bucket		| Wrong bucket, name, the bucket may be in other region or the bucket  does not exists                    |
 | Key 			| Wrong filename, the file may be in other bucket or the file does not exists                             |
@@ -239,8 +241,8 @@ The `node:path` module provides utilities for working with file and directory pa
 
 | Field     		| Validation                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------- |
-| accessKeyId    	| Must be a valid accessKeyId token                                                                       |
-| secretAccessKey  	| Must be a valid secretAccessKey token                                                                   |
+| accessKeyId    	| Must be a valid AWS  accessKeyId token                                                                       |
+| secretAccessKey  	| Must be a valid AWS  secretAccessKey token                                                                   |
 | region      		| Wrong region, in the region does not have the S3 Bucket or the region does not exists                   |
 | Bucket		| Wrong bucket, name, the bucket may be in other region or the bucket  does not exists                    |
 | Key 			| Wrong filename, the file may be in other bucket or the file does not exists                             |
@@ -262,11 +264,11 @@ The `node:path` module provides utilities for working with file and directory pa
 	
 * **/getCalls**:
 
-| Code                  | Message             | Http |
-| --------------------- | ------------------- | ---- |
-| UserNotFoundException | User does not exist | 500  |
+| Code                  | Message             | HTTP Response |
+| --------------------- | ------------------- | ------------- |
+| UserNotFoundException | User does not exist | 500           |
 
-- **response**: HTTP status 200
+	**response**: HTTP status 200
 
 * **/uploadCall**:
 	
@@ -275,12 +277,11 @@ The `node:path` module provides utilities for working with file and directory pa
 
 ## Embedded
 
-### Brief explanation
-### Routes
-### System validations
-### System Errors
-### Methods
-### Permissions
+**Brief explanation**:
+**Routes**:
+**System validations**:
+**System Status/Errors**:
+**Permissions**:
 
 # 
 
