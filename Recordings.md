@@ -49,9 +49,9 @@ like react-dom for the web, or react-native for the native environments.
 `React-media-recorder` is a fully typed react component with render prop, 
 or a react hook, that can be used to:
 
-• Record audio/video
+* Record audio/video
 
-• Record screen
+* Record screen
 
 
 `npm i react-media-recorder`
@@ -287,7 +287,7 @@ state of the call and sending it to AWS DynamoDB to create the necessary table f
 | --------------------- | ------------------------------------------------------------------------------------------------------- |
 | accessKeyId    	| Must be a valid AWS accessKeyId token                                                                   |
 | secretAccessKey  	| Must be a valid AWS secretAccessKey token                                                               |
-| region      		| Wrong region, in the region does not have the S3 Bucket or the region does not exists                   |
+| region      		| Wrong region, the region does not have the S3 Bucket or the region does not exists                      |
 | Bucket		| Wrong bucket, name, the bucket may be in other region or the bucket  does not exists                    |
 | Key 			| Wrong filename, the file may be in other bucket or the file does not exists                             |
 
@@ -470,9 +470,3 @@ and the storage of the original recordings and data already mentioned are the fo
 
 
 # 
-
-
-## Initialization
-
-
-#
