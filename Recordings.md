@@ -213,6 +213,30 @@ For this section, you will find the routes, processes and models that are necess
 handling and storage of the videos; which are used as services in the Frontend sections and in AWS services
 in order to carry out the functionalities of the previously seen.
 
+**Models**:
+
+The models that are used to generate new rows of information in the database are the following:
+
+* **SQL**: Call.ts
+
+This model supports us to generate the compatible model with the relevant 
+information between the database implemented in AWS RDS, with the information
+generated in the application, in order to maintain consistency and order of the data.
+
+The data needed for this model are:
+
+	* Duration: Duration of the call video.
+	* Video_url: Link from the S3 object that has the video stored.
+	* Transcription_url: Link from the S3 object that has the video with thesubtitle stored.
+	* Rating:  Number of the rating of the video.
+	* Processed: Timestamp of the video when is created.
+
+
+* **NOSQL**: CallStatus
+	
+
+
+
 **Routes**:
 
 | Routes       | What the Route Does                                                                                     |
@@ -257,7 +281,6 @@ in order to carry out the functionalities of the previously seen.
 | --------------------- | ------------------------------------------------------------------------------------------------------- |
 | File    		| The file was not created, or something happened when saving the database                                |
 | Agent_id  		| Wrong/Empty Agent_id, or something happened when saving the database                                    |
-| Date     		| Wrong timestamp, The date was not correctly captured when the file was created                          |
 
 
 
@@ -267,6 +290,8 @@ in order to carry out the functionalities of the previously seen.
 | Field     		| Validation                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------- |
 | URL    		| The URL from the file was not created, or something happened when update to the database                |
+| Date     		| Wrong timestamp, The date was not correctly captured when the file was created                          |
+
 
 
 **System Status/Errors**:
@@ -301,7 +326,7 @@ in order to carry out the functionalities of the previously seen.
 
 | Code                  	    | Message            			 | HTTP Response |
 | --------------------------------- | -----------------------------------------  | ------------- |
-| Success               	    |  message: "Se subio a la BD"               | 201           |
+| Success               	    |                                            | 200           |
 | NotFound			    |  		     	                         | 404           |
 
 
