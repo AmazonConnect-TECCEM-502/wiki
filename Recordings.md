@@ -223,6 +223,13 @@ in order to carry out the functionalities of the previously seen.
 
 **Controllers**:
 
+the controllers that are used in the creation of routes, data insertions and objects are the following:
+
+* CallController.ts
+
+This controller initializes the service routes that are used to find and post videos to the S3 bucket;
+As well as the creation and updating of videos with the duration, original URL, URL with transcription,
+qualification, among other relevant data of the video
 
 
 **Models**:
