@@ -226,9 +226,13 @@ generated in the application, in order to maintain consistency and order of the 
 The data needed for this model are:
 
 	* Duration: Duration of the call video.
+
 	* Video_url: Link from the S3 object that has the video stored.
+
 	* Transcription_url: Link from the S3 object that has the video with thesubtitle stored.
+
 	* Rating:  Number of the rating of the video.
+
 	* Processed: Timestamp of the video when is created.
 
 
