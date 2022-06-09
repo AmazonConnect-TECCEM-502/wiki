@@ -193,17 +193,23 @@ The `node:path` module provides utilities for working with file and directory pa
 
 #
 
-##  Usage
+## Documentation
 
 ## FrontEnd
 
 ## Nota:  debe ser mas pantallazo y de los fecth que hacen en el frontend (mas visual debes de ser tecnico)
 
-### Brief explanation
-### API ENDPOINT
-### System validations
-### System Errors
-### Methods
+**Brief explanation**:
+
+
+**Components**:
+
+**API ENDPOINT**:
+
+**System validations**:
+
+**System Errors**:
+
 
 ## BackEnd
 
@@ -212,6 +218,12 @@ The `node:path` module provides utilities for working with file and directory pa
 For this section, you will find the routes, processes and models that are necessary for the processing, 
 handling and storage of the videos; which are used as services in the Frontend sections and in AWS services
 in order to carry out the functionalities of the previously seen.
+
+**Components**:
+
+**Controllers**:
+
+
 
 **Models**:
 
@@ -225,6 +237,7 @@ generated in the application, in order to maintain consistency and order of the 
 
 The data needed for this model are:
 
+
 	1. Duration: Duration of the call video.
 
 	2. Video_url: Link from the S3 object that has the video stored.
@@ -237,12 +250,11 @@ The data needed for this model are:
 
 
 	
-* **NOSQL**: CallStatus
+* **NOSQL**: CallStatus.ts
 
-
+The NoSQL model supports us in formatting the storage information relevant to the 
+state of the call and sending it to AWS DynamoDB to create the necessary table for this model.
 	
-
-
 
 **Routes**:
 
@@ -340,16 +352,47 @@ The data needed for this model are:
 ## Embedded
 
 **Brief explanation**:
+
+**Components**:
+
+
 **Routes**:
+
+| Routes       | What the Route Does                                                                                                        |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| /            | Add the call to init() as an onload so it will only run and initialize the streams api when is loaded from the Index.html  |
+
+
 **System validations**:
+
+
+
 **System Status/Errors**:
+
+
+
+
 **Permissions**:
+
+
+* Certificate Request Key:
+
+* RSA Private Key:
+
+
+## AWS Services
+
+**Buckets**:
+
+**Lamdbas**:
+
+
+
 
 # 
 
 
 ## Initialization
 
-## Where to go from here
 
-##
+#
