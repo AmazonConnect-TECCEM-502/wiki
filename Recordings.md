@@ -225,15 +225,15 @@ generated in the application, in order to maintain consistency and order of the 
 
 The data needed for this model are:
 
-	* Duration: Duration of the call video.
+	1. Duration: Duration of the call video.
 
-	* Video_url: Link from the S3 object that has the video stored.
+	2. Video_url: Link from the S3 object that has the video stored.
 
-	* Transcription_url: Link from the S3 object that has the video with thesubtitle stored.
+	3. Transcription_url: Link from the S3 object that has the video with thesubtitle stored.
 
-	* Rating:  Number of the rating of the video.
+	4. Rating:  Number of the rating of the video.
 
-	* Processed: Timestamp of the video when is created.
+	5. Processed: Timestamp of the video when is created.
 
 
 * **NOSQL**: CallStatus
