@@ -450,20 +450,20 @@ and the storage of the original recordings and data already mentioned are the fo
 
 **Buckets**:
 
-* gpo502-desarrollo-software-react-bucket:
-* post-process-subtitles:
-* post-process-text:
-* post-process-videos:
-* ratings-comprehend:
+* gpo502-desarrollo-software-react-bucket: Main bucket where the recordings are saved as objects for editing and creation of the transcript and rating.
+* post-process-subtitles: Bucket where subtitles of the recordings are stored.
+* post-process-text: Bucket where text of the recordings are stored.
+* post-process-videos: Second main bucket where the process recordings with the transcription are saved as object for use it in the application.
+* ratings-comprehend: Bucket where rating of the recordings are stored in a txt file.
 
 
-**Lamdbas**:
+**Lambdas**:
 
-* subtitles-generator:
-* subtitles-video-merge:
-* subtitles-types-converter:
-* sentimental-lamdba:
-* getPresignedURL: 
+* subtitles-generator: Lambda where the recordings is process to get the transcript of the subtitles and then stored into a S3 bucket. Add a trigger, which will be s3. So, any object that is uploaded into our input folder in the s3 bucket will trigger the Lambda function
+* subtitles-video-merge: Lambda where the subtitles and the original video are merge to get the process video and then stored into a S3 bucket.
+* subtitles-types-converter: Lambda that activates with the trigger when the uploading of th srt file is finish  to the corresponding bucket and extracts it and using regular expressions and string handling converts it from srt to txt and saves it to another bucket. 
+* sentimental-lamdba: Lamdba that process the recording with the transcript and the text ofthe subtitles to get the rating of the video and the stored into a S3 bucket.
+* getPresignedS3URL: Lamdba tha generates presigned url of the original video when recordings is ended in the web app.
 
 
 
