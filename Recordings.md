@@ -201,8 +201,14 @@ The `node:path` module provides utilities for working with file and directory pa
 
 **Brief explanation**:
 
+In this section, the visualization of the project on the web page is created,
+call initialization with controls and buttons needed to start, end, stop and other methods that are neccesary for the call, 
+while services from AWS are consumed as well as the routes that generate
+the necessary services to comply with the functionalities of the area previously seen.
 
 **Components**:
+
+
 
 **API ENDPOINT**:
 
@@ -429,9 +435,36 @@ with cryptographic systems such as SSL.
 
 ## AWS Services
 
+**Brief explanation**:
+
+On the other hand, in order to be able to store, edit and use the videos with all 
+the previously seen functionalities, some services from AWS Connect were needed to 
+be able to generate the transcript, rating, object storage formats that will be the 
+previous data relevant to the video. plus the same recording of the call, among other 
+services necessary for the functionality of the area.
+
+**Components**:
+
+The components that are used in the creation of the transcript rating of the video
+and the storage of the original recordings and data already mentioned are the following:
+
 **Buckets**:
 
+* gpo502-desarrollo-software-react-bucket:
+* post-process-subtitles:
+* post-process-text:
+* post-process-videos:
+* ratings-comprehend:
+
+
 **Lamdbas**:
+
+* subtitles-generator:
+* subtitles-video-merge:
+* subtitles-types-converter:
+* sentimental-lamdba:
+* getPresignedURL: 
+
 
 
 
