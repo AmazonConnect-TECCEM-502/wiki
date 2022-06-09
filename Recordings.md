@@ -142,7 +142,7 @@ data validation, advanced chainable apis for query and scan operations and more.
 The Amazon Connect Streams API (Streams) gives you the power to integrate your existing web applications 
 with Amazon Connect. Streams lets you embed the Contact Control Panel (CCP) and Customer Profiles app UI 
 into your page. It also enables you to handle agent and contact state events directly through an object oriented
-event driven interface
+event driven interface.
 
 `npm install amazon-connect-streams`
 
@@ -211,7 +211,7 @@ The `node:path` module provides utilities for working with file and directory pa
 
 For this section, you will find the routes, processes and models that are necessary for the processing, 
 handling and storage of the videos; which are used as services in the Frontend sections and in AWS services
-in order to carry out the functionalities of the previously seen area.
+in order to carry out the functionalities of the previously seen.
 
 **Routes**:
 
@@ -220,6 +220,7 @@ in order to carry out the functionalities of the previously seen area.
 | /getCalls    | Get the all the calls videos from the S3 stored bucket and send the data contents as a result.          |
 | /uploadCall  | Send the new video to the S3 Bucket to store it for processing later                                    |
 | /postVideoBD | Send the new video to the database in RDS with the timestamp when it was created.                       |
+| /updateCall  | Send the new video to the database in RDS with the timestamp when it was created.                       |
 
 
 **System validations**:
@@ -228,8 +229,8 @@ in order to carry out the functionalities of the previously seen area.
 
 | Field     		| Validation                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------- |
-| accessKeyId    	| Must be a valid AWS accessKeyId token                                                                       |
-| secretAccessKey  	| Must be a valid AWS secretAccessKey token                                                                   |
+| accessKeyId    	| Must be a valid AWS accessKeyId token                                                                   |
+| secretAccessKey  	| Must be a valid AWS secretAccessKey token                                                               |
 | region      		| Wrong region, in the region does not have the S3 Bucket or the region does not exists                   |
 | Bucket		| Wrong bucket, name, the bucket may be in other region or the bucket  does not exists                    |
 | Key 			| Wrong filename, the file may be in other bucket or the file does not exists                             |
@@ -241,8 +242,8 @@ in order to carry out the functionalities of the previously seen area.
 
 | Field     		| Validation                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------- |
-| accessKeyId    	| Must be a valid AWS  accessKeyId token                                                                       |
-| secretAccessKey  	| Must be a valid AWS  secretAccessKey token                                                                   |
+| accessKeyId    	| Must be a valid AWS  accessKeyId token                                                                  |
+| secretAccessKey  	| Must be a valid AWS  secretAccessKey token                                                              |
 | region      		| Wrong region, in the region does not have the S3 Bucket or the region does not exists                   |
 | Bucket		| Wrong bucket, name, the bucket may be in other region or the bucket  does not exists                    |
 | Key 			| Wrong filename, the file may be in other bucket or the file does not exists                             |
@@ -260,19 +261,48 @@ in order to carry out the functionalities of the previously seen area.
 
 
 
+* **/updateCall**:
+
+
+| Field     		| Validation                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------- |
+| URL    		| The URL from the file was not created, or something happened when update to the database                |
+
+
 **System Status/Errors**:
 	
 * **/getCalls**:
 
-| Code                  | Message             | HTTP Response |
-| --------------------- | ------------------- | ------------- |
-| UserNotFoundException | User does not exist | 500           |
+| Code                  	    | Message            			 | HTTP Response |
+| --------------------------------- | -----------------------------------------  | ------------- |
+| Success               	    | data.Contents (List of S3 objects)         | 200           |
+| Error to find the list of objects | error: err.message 			 | 500           |
+| Failed  			    | error: err.message 		     	 | 500           |
 
-	**response**: HTTP status 200
 
 * **/uploadCall**:
+
+| Code                  	    | Message            			 | HTTP Response |
+| --------------------------------- | -----------------------------------------  | ------------- |
+| Success               	    | message: data         			 | 201           |
+| Error PutObject on S3 bucket      | error: err.message 			 | 500           |
+| Failed  			    | error: err.message 		     	 | 500           |
 	
 * **/postVideoBD**:
+
+
+| Code                  	    | Message            			 | HTTP Response |
+| --------------------------------- | -----------------------------------------  | ------------- |
+| Success               	    |  message: "Se subio a la BD"               | 201           |
+| Failed   			    |  error: err.message 		     	 | 500           |
+
+
+* **/updateCall**:
+
+| Code                  	    | Message            			 | HTTP Response |
+| --------------------------------- | -----------------------------------------  | ------------- |
+| Success               	    |  message: "Se subio a la BD"               | 201           |
+| NotFound			    |  		     	                         | 404           |
 
 
 ## Embedded
