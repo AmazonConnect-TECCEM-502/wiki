@@ -1,2 +1,31 @@
-# wiki
-This space is intended to centralize all documentation related to the processes defined by each department. It is expected to be used to consult at any time to remember the steps, activities or work products that are required when implementing any of the department's processes.
+# G502 Index
+
+Here you can find all the information relevant to the project developed 
+by the 502 group during the semester January-June 2022.
+
+The documentation related to the project are the following:
+
+
+## Code Documentation:
+
+
+## SRS Document
+
+
+## Design Document
+
+## Design Checklist
+
+## Code Checklist
+
+## Test design Document
+
+## Test execution log.
+
+## Proyect Plan
+
+## Presentations
+
+## Individual logs of defects and times.
+
+
