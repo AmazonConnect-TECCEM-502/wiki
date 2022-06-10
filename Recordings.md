@@ -219,19 +219,31 @@ This component allows us to record the screen, audio of the agent as well as the
 in order to produce an mp4 format with the information collected and upload it to an AWS s3 bucket and 
 the database.
 
+**Idle**
+
+![Recording Idle Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/RecodingIdle.jpeg)
+
+
+**Selection**
+
+**Running**
+
 
 * **KeystrokeText.js**:
 
 This component that creates the visual elements for the keystrokes section in the web app
 
-**display**
+**Keystrokes**
+
+**Keystrokes**
+
 
 * **KeystrokeRecording.js**:
 
 The component supports us in detecting the keys that are used when the agent starts 
 typing within the web application
 
-**display**
+
 
 
 ## BackEnd
