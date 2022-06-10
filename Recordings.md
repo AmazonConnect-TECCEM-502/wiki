@@ -208,13 +208,46 @@ the necessary services to comply with the functionalities of the area previously
 
 **Components**:
 
+The components that are used in the creation of the visual elements that are present in the web app, 
+fetch and extraction of the video url for its processing and the capture of keystrokes within the application.
+This are the following:
 
 
-**API ENDPOINT**:
+* **Recodings.js**:
 
-**System validations**:
+This component allows us to record the screen, audio of the agent as well as the audio of the client, 
+in order to produce an mp4 format with the information collected and upload it to an AWS s3 bucket and 
+the database.
 
-**System Errors**:
+**Idle**
+
+![Recording Idle Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/RecodingIdle.jpeg)
+
+**Running**
+
+![Recording Running Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/RecordingRecordingScreen.PNG)
+
+
+
+* **KeystrokeText.js**:
+
+This component that creates the visual elements for the keystrokes section in the web app
+
+**Keystrokes Sample**
+
+![Keystrokes Sample Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/Keystrokes.jpg)
+
+
+**Keystrokes Running**
+
+![Keystrokes Running Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/FullKeystrokes.jpeg)
+
+* **KeystrokeRecording.js**:
+
+The component supports us in detecting the keys that are used when the agent starts 
+typing within the web application
+
+
 
 
 ## BackEnd
