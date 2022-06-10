@@ -223,20 +223,24 @@ the database.
 
 ![Recording Idle Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/RecodingIdle.jpeg)
 
-
-**Selection**
-
 **Running**
+
+![Recording Running Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/RecordingRecordingScreen.PNG)
+
 
 
 * **KeystrokeText.js**:
 
 This component that creates the visual elements for the keystrokes section in the web app
 
-**Keystrokes**
+**Keystrokes Sample**
 
-**Keystrokes**
+![Keystrokes Sample Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/Keystrokes.jpg)
 
+
+**Keystrokes Running**
+
+![Keystrokes Running Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/FullKeystrokes.jpeg)
 
 * **KeystrokeRecording.js**:
 
