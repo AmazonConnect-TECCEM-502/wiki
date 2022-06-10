@@ -8,7 +8,7 @@ The documentation related to the project are the following:
 
 ## Code Documentation:
 
-* Recodings [Contribution guidelines for this project]https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Recordings.md)
+* Recodings [Contribution guidelines for this project](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Recordings.md)
 
 * Sales
 
