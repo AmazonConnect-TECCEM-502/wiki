@@ -168,7 +168,23 @@ the necessary services to comply with the functionalities of the area previously
 
 **Components**:
 
+The components are used in the creation of the visual elements of the sales card and extraction of the products information. 
+These components are: 
 
+
+* **ProductCard.js**:
+ 
+* **ProductImage.js**:
+
+* **ProductList.js**:
+
+* **ProductsCategoryList.js**:
+
+* **SalesMasterCard.js**:
+
+* **ConfirmCard.js**:
+
+This component allows the user to confirm if the agent really wants to add the product to the actual client. 
 
 **API ENDPOINT**:
 
