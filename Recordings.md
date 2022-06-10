@@ -197,8 +197,6 @@ The `node:path` module provides utilities for working with file and directory pa
 
 ## [FrontEnd](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend)
 
-## Nota:  debe ser mas pantallazo y de los fecth que hacen en el frontend (mas visual debes de ser tecnico)
-
 **Brief explanation**:
 
 In this section, the visualization of the project on the web page is created,
@@ -213,7 +211,7 @@ fetch and extraction of the video url for its processing and the capture of keys
 This are the following:
 
 
-* **Recodings.js**:
+* **Recodings.js**:  [ **Recodings.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/Recordings/Recording.js)
 
 This component allows us to record the screen, audio of the agent as well as the audio of the client, 
 in order to produce an mp4 format with the information collected and upload it to an AWS s3 bucket and 
