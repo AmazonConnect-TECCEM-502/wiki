@@ -32,7 +32,7 @@ The documentation related to the project are the following:
 
 ## Design Checklist
 
-* [Recodings]()
+* [Recodings](https://drive.google.com/file/d/1ozgMxMfF1-_RuC6WcMJbiMXTiq2p6AOW/view?usp=sharing)
 
 * [Problems Sugestions]()
 
@@ -40,7 +40,7 @@ The documentation related to the project are the following:
 
 * [Reports]()
 
-* [Client Identification]()
+* [Client Identification](https://docs.google.com/document/d/14_QNDCCJyuAMVVVe6p97bh5UxmBTlRL-/edit?usp=sharing&ouid=100023520518789436215&rtpof=true&sd=true)
 
 * [Authentification]()
 
@@ -49,7 +49,7 @@ The documentation related to the project are the following:
 
 ## Code Checklist
 
-* [Recodings]()
+* [Recodings](https://drive.google.com/file/d/1VggmkJwUQwzxHsVbGBxgh4kVAw9cIKIx/view?usp=sharing)
 
 * [Problems Sugestions]()
 
