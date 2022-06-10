@@ -33,7 +33,7 @@ order to correctly use the functionality of the area.
 
 Note: For the following commands, you could use `yarn add`,or its equivalent if necessary.
 
-## FrontEnd
+## [FrontEnd](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend)
 
 #### React
 
@@ -71,7 +71,7 @@ Promise based HTTP client for the browser and node.js
 `npm install axios`
 
 
-## BackEnd
+## [BackEnd](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend)
 
 #### Express
 
@@ -135,7 +135,7 @@ data validation, advanced chainable apis for query and scan operations and more.
 `npm install joi`
 
 
-## Embedded
+## [Embedded](https://github.com/AmazonConnect-TECCEM-502/AmazonConnect-Embedded)
 
 #### Amazon Connect Streams
 
@@ -195,7 +195,7 @@ The `node:path` module provides utilities for working with file and directory pa
 
 # Documentation
 
-## FrontEnd
+## [FrontEnd](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend)
 
 ## Nota:  debe ser mas pantallazo y de los fecth que hacen en el frontend (mas visual debes de ser tecnico)
 
@@ -250,7 +250,7 @@ typing within the web application
 
 
 
-## BackEnd
+## [BackEnd](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend)
 
 **Brief explanation**:
 
@@ -395,7 +395,7 @@ state of the call and sending it to AWS DynamoDB to create the necessary table f
 | NotFound			    |  		     	                         | 404           |
 
 
-## Embedded
+## [Embedded](https://github.com/AmazonConnect-TECCEM-502/AmazonConnect-Embedded)
 
 **Brief explanation**:
 
