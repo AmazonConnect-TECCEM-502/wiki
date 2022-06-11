@@ -278,54 +278,167 @@ state of the call and sending it to AWS DynamoDB to create the necessary table f
 
 **Routes**:
 
-| Routes                                           | What the Route Does                                                                                        |
-| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| /getProductCategories                            | Get the all the product categories available in the database in RDS.                                       |
-| /getProduct/:product_id                          | Get the specified product available in the database in RDS according to the given product id.              |
-| /getOwnedProducts/:client_id/:category_id        | Get the owned products by the Client in the database in RDS according to the given client and category ids.|
-| /getOwnedProducts/:client_id                     | Send the new video to the database in RDS with the timestamp when it was created.                       |
-| /getNotOwnedProducts/:client_id/:category_id     | Send the new video to the database in RDS with the timestamp when it was created.                       |
-| /getRecommendedProducts/:client_id/:category_id  | Send the new video to the database in RDS with the timestamp when it was created.                       |
-| /orderHistory/:client_id                         | Send the new video to the database in RDS with the timestamp when it was created.                       |
-| /buyProduct                                      | Send the new video to the database in RDS with the timestamp when it was created.                       |
-| /createProduct                                   | Send the new video to the database in RDS with the timestamp when it was created.                       |
+| Routes                                           | What the Route Does                                                                                         |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| /getProductCategories                            | Get the all the product categories available in the database in RDS.                                        |
+| /getProduct/:product_id                          | Get the specified product available in the database in RDS according to the given product id.               |
+| /getOwnedProducts/:client_id/:category_id        | Get the owned products by the Client in the database in RDS according to the given client and category ids. |
+| /getOwnedProducts/:client_id                     | Get the owned products by the Client in the database in RDS according to the given client id.               |
+| /getNotOwnedProducts/:client_id/:category_id     | Get the not owned products by the Client in the database RDS according to the given client and category ids.|
+| /getRecommendedProducts/:client_id/:category_id  | Get the recommended products for the Client (based in best options) in the database RDS according to the given client and category ids.|
+| /orderHistory/:client_id                         | Get the order history of the obtained products by the Client in the database RDS given its id .             |
+| /buyProduct                                      | Post the selling of a product in the database RDS to a specific Client.                                     |
+| /createProduct                                   | Post the creation of a new product given its related data in the database RDS.                              |
+| /validateSku/:product_sku                        | Get the correspondant product_sku to validate that it exists in the database RDS.                           |
+| /updateProduct                                   | Post the update of an existent product with the data specified in the database RDS.                         |
+
+
 
 **System validations**:
 
+* **/getProduct**:
+
+| Field      | Validation                                                                                              |
+| ---------- | ------------------------------------------------------------------------------------------------------- |
+| product_id | Must be an existent numerical ID in the database RDS.                                                   |
+
+* **/getOwnedProdcuts**:
+
+| Field       | Validation                                                                                              |
+| ----------- | ------------------------------------------------------------------------------------------------------- |
+| category_id | Must be an existent numerical ID in the database RDS.                                                   |
+| client_id   | Must be an existent numerical ID in the database RDS.                                                   |
+
+* **/getProductsNotOwned**:
+
+| Field       | Validation                                                                                              |
+| ----------- | ------------------------------------------------------------------------------------------------------- |
+| category_id | Must be an existent numerical ID in the database RDS.                                                   |
+| client_id   | Must be an existent numerical ID in the database RDS.                                                   |
+
+* **/getRecommendedProducts**:
+
+| Field       | Validation                                                                                              |
+| ----------- | ------------------------------------------------------------------------------------------------------- |
+| category_id | Must be an existent numerical ID in the database RDS.                                                   |
+| client_id   | Must be an existent numerical ID in the database RDS.                                                   |
+
+* **/orderHistory**:
+
+| Field       | Validation                                                                                              |
+| ----------- | ------------------------------------------------------------------------------------------------------- |
+| client_id   | Must be an existent numerical ID in the database RDS.                                                   |
+
+* **/buyProduct**:
+
+| Field       | Validation                                                                                              |
+| ----------- | ------------------------------------------------------------------------------------------------------- |
+| product_id  | Must be an existent numerical ID in the database RDS.                                                   |
+| client_id   | Must be an existent numerical ID in the database RDS.                                                   |
+
+* **/createProduct**:
+
+| Field               | Validation                                                                                              |
+| ------------------- | ------------------------------------------------------------------------------------------------------- |
+| product_sku         | Must be a number.                                                                                       |
+| product_name        | Must be a string.                                                                                       |
+| product_description | Must be a string.                                                                                       |
+| price               | Must be a number.                                                                                       |
+| stock               | Must be a number.                                                                                       |
+
+* **/validateSku**:
+
+| Field               | Validation                                                                                              |
+| ------------------- | ------------------------------------------------------------------------------------------------------- |
+| product_sku         | Must be an exisiting numerical ID in the database RDS.                                                  |
+| product_id          | Must be an existent numerical ID in the database RDS.                                                   |
+
+* **/updateProduct**:
+
+| Field               | Validation                                                                                              |
+| ------------------- | ------------------------------------------------------------------------------------------------------- |
+| product_name        | Must be an string.                                                                                      |
+| product_id          | Must be an exisiting numerical ID in the database RDS.                                                  |
+| product_description | Must be a string.                                                                                       |
+| price               | Must be a number.                                                                                       |
+| stock               | Must be a number.                                                                                       |
+| category_id         | Must be an exisiting numerical ID in the database RDS.                                                  |
+
+
 **System Status/Errors**:
 	
-* **/getCalls**:
+* **/getProduct**:
 
-| Code                  	    | Message            			 | HTTP Response |
+| Code                  	        | Message            			             | HTTP Response |
 | --------------------------------- | -----------------------------------------  | ------------- |
-| Success               	    | data.Contents (List of S3 objects)         | 200           |
-| Error to find the list of objects | error: err.message 			 | 500           |
-| Failed  			    | error: err.message 		     	 | 500           |
+| Success                   	    | product                                    | 200           |
+| Internal error of server          | message: error.message 		             | 500           |
+| External error of server          | message: "External error" 	          	 | 501           |
 
+* **/getOwnedProdcuts**:
 
-* **/uploadCall**:
-
-| Code                  	    | Message            			 | HTTP Response |
+| Code                  	        | Message            			             | HTTP Response |
 | --------------------------------- | -----------------------------------------  | ------------- |
-| Success               	    | message: data         			 | 201           |
-| Error PutObject on S3 bucket      | error: err.message 			 | 500           |
-| Failed  			    | error: err.message 		     	 | 500           |
-	
-* **/postVideoBD**:
+| Success                   	    | products[0]                                | 200           |
+| Internal error of server          | message: error.message 		             | 500           |
+| External error of server          | message: "External error" 	          	 | 501           |
 
+* **/getProductsNotOwned**:
 
-| Code                  	    | Message            			 | HTTP Response |
+| Code                  	        | Message            			             | HTTP Response |
 | --------------------------------- | -----------------------------------------  | ------------- |
-| Success               	    |  message: "Se subio a la BD"               | 201           |
-| Failed   			    |  error: err.message 		     	 | 500           |
+| Success                   	    | products[0]                                | 200           |
+| Internal error of server          | message: error.message 		             | 500           |
+| External error of server          | message: "External error" 	          	 | 501           |
 
+* **/getRecommendedProducts**:
 
-* **/updateCall**:
-
-| Code                  	    | Message            			 | HTTP Response |
+| Code                  	        | Message            			             | HTTP Response |
 | --------------------------------- | -----------------------------------------  | ------------- |
-| Success               	    |                                            | 200           |
-| NotFound			    |  		     	                         | 404           |
+| Success                   	    | products[0]                                | 200           |
+| Internal error of server          | message: error.message 		             | 500           |
+| External error of server          | message: "External error" 	          	 | 501           |
+
+* **/orderHistory**:
+
+| Code                  	        | Message            			             | HTTP Response |
+| --------------------------------- | -----------------------------------------  | ------------- |
+| Success                   	    | orders                                     | 200           |
+| Internal error of server          | message: error.message 		             | 500           |
+| External error of server          | message: "External error" 	          	 | 501           |
+
+* **/buyProduct**:
+
+| Code                  	        | Message            			                                    | HTTP Response |
+| --------------------------------- | ----------------------------------------------------------------  | ------------- |
+| Success                   	    | `${product.product_name} added to client ${req.body.client_id}`   | 200           |
+| Internal error of server          | message: error.message 		                                    | 500           |
+| External error of server          | message: "External error"                                         | 501           |
+
+* **/createProduct**:
+
+| Code                  	        | Message            			                                    | HTTP Response |
+| --------------------------------- | ----------------------------------------------------------------  | ------------- |
+| Success                   	    | message: "A product with this sku already exists"                 | 200           |
+| Internal error of server          | message: error.message 		                                    | 500           |
+| External error of server          | message: "External error"                                         | 501           |
+
+* **/validateSku**:
+
+| Code                  	        | Message            			             | HTTP Response |
+| --------------------------------- | -----------------------------------------  | ------------- |
+| Success                   	    | {product: product,category: catprod[0][0]} | 200           |
+| Error to find the product         | message: error.message 		             | 400           |
+| Internal error of server          | message: error.message 		             | 500           |
+| External error of server          | message: "External error" 	          	 | 501           |
+
+* **/updateProduct**:
+
+| Code                  	        | Message            			             | HTTP Response |
+| --------------------------------- | -----------------------------------------  | ------------- |
+| Success                   	    | "Product updated"                          | 200           |
+| Internal error of server          | message: error.message 		             | 500           |
+| External error of server          | message: "External error" 	          	 | 501           |
 
 
 ## Embedded
