@@ -211,7 +211,7 @@ fetch and extraction of the video url for its processing and the capture of keys
 This are the following:
 
 
-* **Recodings.js**:  [ **Recodings.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/Recordings/Recording.js)
+* [ **Recodings.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/Recordings/Recording.js)
 
 This component allows us to record the screen, audio of the agent as well as the audio of the client, 
 in order to produce an mp4 format with the information collected and upload it to an AWS s3 bucket and 
@@ -227,7 +227,7 @@ the database.
 
 
 
-* **KeystrokeText.js**:
+* [ **KeystrokeText.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/Recordings/KeystrokeText.js)
 
 This component that creates the visual elements for the keystrokes section in the web app
 
@@ -240,7 +240,7 @@ This component that creates the visual elements for the keystrokes section in th
 
 ![Keystrokes Running Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/FullKeystrokes.jpeg)
 
-* **KeystrokeRecording.js**:
+* [ **KeystrokeRecording.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/Recordings/KeystrokeRecording.js)
 
 The component supports us in detecting the keys that are used when the agent starts 
 typing within the web application
@@ -262,7 +262,7 @@ in order to carry out the functionalities of the previously seen.
 
 the controllers that are used in the creation of routes, data insertions and objects are the following:
 
-* CallController.ts
+* [ **CallController.ts:**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/controllers/CallController.ts)
 
 This controller initializes the service routes that are used to find and post videos to the S3 bucket;
 As well as the creation and updating of videos with the duration, original URL, URL with transcription,
@@ -273,7 +273,7 @@ qualification, among other relevant data of the video.
 
 The models that are used to generate new rows of information in the database are the following:
 
-* **SQL**: Call.ts
+* **SQL**: [ Call.ts ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/models/call.ts)
 
 This model supports us to generate the compatible model with the relevant 
 information between the database implemented in AWS RDS, with the information
@@ -294,7 +294,7 @@ The data needed for this model are:
 
 
 	
-* **NOSQL**: CallStatus.ts
+* **NOSQL**: CallStatus.ts  [ CallStatus.ts ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/modelsNOSQL/callsStatus.ts)
 
 The NoSQL model supports us in formatting the storage information relevant to the 
 state of the call and sending it to AWS DynamoDB to create the necessary table for this model.
@@ -408,7 +408,7 @@ the client, as well as the creation of the https server through the credentials 
 
 The index file that is used for the implementation of the call service is the following:
 
-* **Index.js**:
+* [ **Index.js**: ](https://github.com/AmazonConnect-TECCEM-502/AmazonConnect-Embedded/blob/main/index.js)
 
 This index file supports us in generating the route for the HTML service, 
 as well as the app express service and credentials to run it by creating a server 
@@ -418,7 +418,7 @@ and initializing the call through the port intended for it.
 
 The HTML files that are used in the creation of call are the following:
 
-* **Index.html**:
+* [ **Index.html**: ](https://github.com/AmazonConnect-TECCEM-502/AmazonConnect-Embedded/blob/main/public/index.html)
 
 This html file initializes the call service, where the instance of the call
 is determined as well as various options that support us in visual elements, 
