@@ -44,7 +44,6 @@ The documentation related to the project are the following:
 
 * [Authentification]()
 
-* [Data Base]()
 
 
 ## Code Checklist
@@ -60,8 +59,6 @@ The documentation related to the project are the following:
 * [Client Identification]()
 
 * [Authentification]()
-
-* [Data Base]()
 
 
 ## Test design Document
