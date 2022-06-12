@@ -98,6 +98,7 @@ The documentation related to the project are the following:
 
 ## Proyect Plan
 
+* [Proyect Plan](https://docs.google.com/spreadsheets/d/1j-eL5tLAYuLl1fxj6zYnXZSwyR9XQF7A/edit?usp=sharing&ouid=105826448299569021198&rtpof=true&sd=true)
 
 
 
@@ -107,7 +108,18 @@ The documentation related to the project are the following:
 
 ## Presentations
 
+* [Progress report April 7-21](https://drive.google.com/file/d/1dYSG-h50n6hVQAp8pef-GQxENcTbr00O/view?usp=sharing)
 
+* [Progress report April 28](https://drive.google.com/file/d/1ajW7hyeaVW1Dfl2RrDohgaRrWse6fBM8/view?usp=sharing)
+
+* [Progress report May 19](https://drive.google.com/file/d/1nb1EiA1eDgGPOU6eu0MB44akKi9t-Cns/view?usp=sharing)
+
+* [Progress report May 26](https://drive.google.com/file/d/1YjuDt7gybi0Fq7bbJPYMjAJjzRwIHud5/view?usp=sharing)
+
+* [Progress report June 2](https://drive.google.com/file/d/1PPWZP2bWmgZVsoJTID3XrIaxNiJatCFe/view?usp=sharing)
+
+* [Progress report June 9](https://drive.google.com/file/d/1PemCcUuslmpCLyqNyIHhZkANWd-J4WDB/view?usp=sharing)
+ 
 
 ## Individual logs of defects and times.
 
