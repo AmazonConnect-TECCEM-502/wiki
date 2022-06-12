@@ -118,8 +118,9 @@ These components are:
 
 This component allows the agent to visualize all the existing categories of the available porducts, in order to display the products corresponding to a certain category.
 
-**Categories list**
+**Categories List**
 
+![Category List Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/CategoryList.PNG)
 
 
 * [ **ProductList.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/ProductList.js)
@@ -133,7 +134,7 @@ This component allows the agent to visualize a list of the available products th
 
 This component allows the agent to visualize the details of the selected product, like name, image, price and description of the product. This component also allows the agent to add the product to the client with the Add button, and go back to the prodcut list. 
 
-**Porduct Example**
+**Product Example**
  
 * [ **ProductImage.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/ProductImage.js)
 
