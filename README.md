@@ -34,7 +34,7 @@ The documentation related to the project are the following:
 
 * [Recodings](https://drive.google.com/file/d/1ozgMxMfF1-_RuC6WcMJbiMXTiq2p6AOW/view?usp=sharing)
 
-* [Problems Sugestions]()
+* [Problems Sugestions](https://docs.google.com/document/d/1mmeEVpxPip4X-iG74KczsBIX0P1eaLbGlRJz6UxiLVc/edit?usp=sharing)
 
 * [Sales](https://drive.google.com/file/d/1SGfri-Sa3XiBAMm83KNiSVL0hYoSl9tO/view?usp=sharing)
 
@@ -51,7 +51,7 @@ The documentation related to the project are the following:
 
 * [Recodings](https://drive.google.com/file/d/1VggmkJwUQwzxHsVbGBxgh4kVAw9cIKIx/view?usp=sharing)
 
-* [Problems Sugestions]()
+* [Problems Sugestions](https://docs.google.com/document/d/1mmeEVpxPip4X-iG74KczsBIX0P1eaLbGlRJz6UxiLVc/edit?usp=sharing)
 
 * [Sales](https://drive.google.com/file/d/10degIvyBFE_ruBbw2iQOCdZKxgTlxWx_/view?usp=sharing)
 
