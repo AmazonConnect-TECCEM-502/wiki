@@ -38,7 +38,7 @@ The documentation related to the project are the following:
 
 * [Sales](https://drive.google.com/file/d/1SGfri-Sa3XiBAMm83KNiSVL0hYoSl9tO/view?usp=sharing)
 
-* [Reports]()
+* [Reports](https://drive.google.com/file/d/1qFirn-fAMDPhi3cM-DRO1lJZ8ALsyiqG/view?usp=sharing)
 
 * [Client Identification](https://docs.google.com/document/d/14_QNDCCJyuAMVVVe6p97bh5UxmBTlRL-/edit?usp=sharing&ouid=100023520518789436215&rtpof=true&sd=true)
 
@@ -55,7 +55,7 @@ The documentation related to the project are the following:
 
 * [Sales](https://drive.google.com/file/d/10degIvyBFE_ruBbw2iQOCdZKxgTlxWx_/view?usp=sharing)
 
-* [Reports]()
+* [Reports](https://drive.google.com/file/d/12v5He1DqHVX0_OS5kiQsOHcS9Ra3Kgoy/view?usp=sharing)
 
 * [Client Identification]()
 
