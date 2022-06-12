@@ -30,7 +30,7 @@ order to correctly use the functionality of the area.
 
 Note: For the following commands, you could use `yarn add`,or its equivalent if necessary.
 
-## FrontEnd
+## [ FrontEnd ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend)
 
 #### React
 
@@ -49,7 +49,7 @@ which utilizes ES6 imports that allows you to include only the icons that your p
 `npm install react-icons --save`
 
 
-## BackEnd
+## [ BackEnd ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend)
 
 #### Express
 
@@ -112,24 +112,51 @@ the necessary services to comply with the functionalities of the area previously
 **Components**:
 
 The components are used in the creation of the visual elements of the sales card and extraction of the products information. 
-These components are: 
+These components are:
+
+* [ **ProductsCategoryList.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/ProductsCategoryList.js)
+
+This component allows the agent to visualize all the existing categories of the available porducts, in order to display the products corresponding to a certain category.
+
+**Categories list**
 
 
-* **ProductCard.js**:
+
+* [ **ProductList.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/ProductList.js)
+
+This component allows the agent to visualize a list of the available products that belong to the category chosen in the previous component.
+
+**Product List**
+
+
+* [ **ProductCard.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/ProductCard.js)
+
+This component allows the agent to visualize the details of the selected product, like name, image, price and description of the product. This component also allows the agent to add the product to the client with the Add button, and go back to the prodcut list. 
+
+**Porduct Example**
  
-* **ProductImage.js**:
+* [ **ProductImage.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/ProductImage.js)
 
-* **ProductList.js**:
+This component allows to assign an image to each porduct, extracting it from the S3 bucket according to the product's name. 
 
-* **ProductsCategoryList.js**:
+**Product Image**
 
-* **SalesMasterCard.js**:
+* [ **SalesMasterCard.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/SalesMasterCard.js)
 
-* **ConfirmCard.js**:
+This component is the one that gives functionnality to the rest of the components. It get the recommended products for the client according to the problem, allows to assign the porduct to the client and allows the transition between the different components. 
 
-This component allows the user to confirm if the agent really wants to add the product to the actual client.
+* [ **ConfirmCard.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/ConfirmCard.js)
 
-* **NewProduct.js**:
+This component allows the user to confirm if the agent really wants to add the product to the actual client, displaying a pop-up window. 
+
+* [ **NewProduct.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/AdminCards/NewProduct.js)
+
+This component allows the admin to create a new product, by getting the product's name, SKU, category, description, price, stock and image. 
+
+* [ **UpdateProduct.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/AdminCards/UpdateProduct.js)
+
+This component allows the admin to update one of the existing products.
+
 
 **API ENDPOINT**:
 
@@ -138,7 +165,7 @@ This component allows the user to confirm if the agent really wants to add the p
 **System Errors**:
 
 
-## BackEnd
+## [ BackEnd ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend)
 
 **Brief explanation**:
 
@@ -152,7 +179,7 @@ in order to carry out the functionalities of the previously seen.
 
 the controllers that are used in the creation of routes, data insertions and objects are the following:
 
-* SalesController.ts
+* [ SalesController.ts ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/controllers/SalesController.ts)
 
 This controller initializes the service routes that are used to find the available product options
 to be recommended to the Client divided in the correspondant categories as well as the insertion of new
@@ -163,7 +190,7 @@ products made by the Administrator
 
 The models that are used to generate new rows of information in the database are the following:
 
-* **SQL**: Product.ts
+* [ **SQL**: Product.ts ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/models/product.ts)
 
 This model supports us to generate the compatible model with the relevant 
 information between the database implemented in AWS RDS, with the information
@@ -184,7 +211,7 @@ The data needed for this model are:
 
 	6. Stock: Stock available for the product
 
-* **SQL**: Product_category.ts
+* [ **SQL**: Product_category.ts ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/models/product_category.ts)
 
 This model supports us to generate the compatible model with the relevant 
 information between the database implemented in AWS RDS, with the information
@@ -199,7 +226,7 @@ The data needed for this model are:
 
 	3. Category_description: Description of the product category.
 
-* **SQL**: Order.ts
+* [ **SQL**: Order.ts ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/models/order.ts)
 
 This model supports us to generate the compatible model with the relevant 
 information between the database implemented in AWS RDS, with the information
@@ -390,31 +417,15 @@ state of the call and sending it to AWS DynamoDB to create the necessary table f
 
 **Brief explanation**:
 
-On the other hand, in order to be able to store, edit and use the videos with all 
-the previously seen functionalities, some services from AWS Connect were needed to 
-be able to generate the transcript, rating, object storage formats that will be the 
-previous data relevant to the video. plus the same recording of the call, among other 
-services necessary for the functionality of the area.
+On the other hand, in order to be able to store, edit and use the product's images for the sales functionnalities, we used the following AWS services: 
 
 **Buckets**:
 
-* gpo502-desarrollo-software-react-bucket: Main bucket where the recordings are saved as objects for editing and creation of the transcript and rating.
-* post-process-subtitles: Bucket where subtitles of the recordings are stored.
-* post-process-text: Bucket where text of the recordings are stored.
-* post-process-videos: Second main bucket where the process recordings with the transcription are saved as object for use it in the application.
-* ratings-comprehend: Bucket where rating of the recordings are stored in a txt file.
+* images-texmex-users-2-0 /sales: Bucket that stores all the porduct's images that are used in the porduct card.
 
 
 **Lambdas**:
 
-* subtitles-generator: Lambda where the recordings is process to get the transcript of the subtitles and then stored into a S3 bucket. Add a trigger, which will be s3. So, any object that is uploaded into our input folder in the s3 bucket will trigger the Lambda function
-* subtitles-video-merge: Lambda where the subtitles and the original video are merge to get the process video and then stored into a S3 bucket.
-* subtitles-types-converter: Lambda that activates with the trigger when the uploading of th srt file is finish  to the corresponding bucket and extracts it and using regular expressions and string handling converts it from srt to txt and saves it to another bucket. 
-* sentimental-lamdba: Lamdba that process the recording with the transcript and the text ofthe subtitles to get the rating of the video and the stored into a S3 bucket.
-* getPresignedS3URL: Lamdba tha generates presigned url of the original video when recordings is ended in the web app.
-
-
-
-
+* images-texmex-users-2-0: Lambda function that allows us to get the image from the Bucket. 
 
 # 
