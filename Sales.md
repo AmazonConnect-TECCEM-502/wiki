@@ -94,68 +94,11 @@ eager and lazy loading, read replication and more.
 
 `npm install joi`
 
-
-## Embedded
-
-#### Amazon Connect Streams
-
-The Amazon Connect Streams API (Streams) gives you the power to integrate your existing web applications 
-with Amazon Connect. Streams lets you embed the Contact Control Panel (CCP) and Customer Profiles app UI 
-into your page. It also enables you to handle agent and contact state events directly through an object oriented
-event driven interface.
-
-`npm install amazon-connect-streams`
-
-
-#### Express
-
-The `Express` module provides a small, robust tooling for HTTP servers,
-making it a great solution for single page applications, websites, 
-hybrids, or public HTTP APIs.
-
-
-`$ npm install express`
-
-
-#### FS
-
-The `node:fs` module enables interacting with the file system in a way modeled on standard POSIX functions.
-
-
-`npm install fs`
-
-
-#### HTTP
-
-`Http` is a simple, zero-configuration command-line static HTTP server. It is powerful enough for 
-production usage, but it's simple and hackable enough to be used for testing, local development
-and learning.
-
-
-`npm install http`
-
-
-#### HTTPS
-
-`Https` is the HTTP protocol over TLS/SSL. In Node.js this is implemented as a separate module.
-
-`npm install https`
-
-
-#### Path
-
-The `node:path` module provides utilities for working with file and directory paths.
-
-
-`npm install --save path`
-
-
-
 #
 
 # Documentation
 
-## FrontEnd
+## [ FrontEnd ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend)
 
 ## Nota:  debe ser mas pantallazo y de los fecth que hacen en el frontend (mas visual debes de ser tecnico)
 
@@ -184,7 +127,9 @@ These components are:
 
 * **ConfirmCard.js**:
 
-This component allows the user to confirm if the agent really wants to add the product to the actual client. 
+This component allows the user to confirm if the agent really wants to add the product to the actual client.
+
+* **NewProduct.js**:
 
 **API ENDPOINT**:
 
@@ -441,77 +386,6 @@ state of the call and sending it to AWS DynamoDB to create the necessary table f
 | External error of server          | message: "External error" 	          	 | 501           |
 
 
-## Embedded
-
-**Brief explanation**:
-
-This section contains the route, processes and Amazon Connect Stream connection 
-to generate the process of receiving, accepting and terminating incoming calls by 
-the client, as well as the creation of the https server through the credentials and the express app.
-
-
-**Components**:
-
-**Index**:
-
-The index file that is used for the implementation of the call service is the following:
-
-* **Index.js**:
-
-This index file supports us in generating the route for the HTML service, 
-as well as the app express service and credentials to run it by creating a server 
-and initializing the call through the port intended for it.
-
-**HTML**:
-
-The HTML files that are used in the creation of call are the following:
-
-* **Index.html**:
-
-This html file initializes the call service, where the instance of the call
-is determined as well as various options that support us in visual elements, 
-region selection, hearing, among others that customize the call service and the
-needs of the functionality. .
-
-
-* **Credentials**:
-
-In this section,two credentials are needed to get HTTPS certification, 
-and run the call service in a secure way.This credentials are the following:
-
-* **Certificate Request Key**:
-
-A CSR or Certificate Signing Request is a block of encrypted text that is normally
-generated on the server where the SSL certificate will be used, although it can also 
-be generated externally like our case.
-
-The CSR contains information that will finally be included in the SSL certificate, 
-such as your name or that of the company, the address, the country of residence or the 
-common name (domain for which the SSL is generated), in addition to these data it will 
-also include a public key that will be included in your certificate as well.
-
-
-* **RSA Private Key**:
-
-RSA key is a private key based on RSA algorithm. Private Key is used for 
-authentication and a symmetric key exchange during establishment of an SSL/TLS session.
-
-It is a part of the public key infrastructure that is generally 
-used in case of SSL certificates.
-
-PEM encoded RSA private key is a format that stores an RSA private key, for use
-with cryptographic systems such as SSL.
-
-
-
-**Routes**:
-
-| Routes       | What the Route Does                                                                                                        |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------- |
-| /            | Add the call to init() as an onload so it will only run and initialize the streams api when is loaded from the Index.html  |
-
-
-
 ## AWS Services
 
 **Brief explanation**:
@@ -521,11 +395,6 @@ the previously seen functionalities, some services from AWS Connect were needed 
 be able to generate the transcript, rating, object storage formats that will be the 
 previous data relevant to the video. plus the same recording of the call, among other 
 services necessary for the functionality of the area.
-
-**Components**:
-
-The components that are used in the creation of the transcript rating of the video
-and the storage of the original recordings and data already mentioned are the following:
 
 **Buckets**:
 
