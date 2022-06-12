@@ -159,11 +159,6 @@ This component allows the admin to create a new product, by getting the product'
 This component allows the admin to update one of the existing products.
 
 
-**API ENDPOINT**:
-
-**System validations**:
-
-**System Errors**:
 
 
 ## [ BackEnd ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend)
