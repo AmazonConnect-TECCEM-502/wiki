@@ -14,7 +14,7 @@ The documentation related to the project are the following:
 
 * [Sales](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Sales.md)
 
-* [Reports]()
+* [Reports](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Reports.md)
 
 * [Client Identification]()
 
