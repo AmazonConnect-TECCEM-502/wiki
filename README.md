@@ -16,7 +16,7 @@ The documentation related to the project are the following:
 
 * [Reports](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Reports.md)
 
-* [Client Identification]()
+* [Client Identification](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ClientAuthentication.md)
 
 * [Authentification]()
 
