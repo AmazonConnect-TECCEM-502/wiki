@@ -162,14 +162,17 @@ This component allows the user to confirm if the agent really wants to add the p
 
 This component allows the admin to create a new product, by getting the product's name, SKU, category, description, price, stock and image. 
 
+**Creation of a new product**
 
+![Confirmation Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/CreateProduct.PNG)
 
 * [ **UpdateProduct.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/AdminCards/UpdateProduct.js)
 
-This component allows the admin to update one of the existing products.
+This component allows the admin to update one of the existing products with the SKU of the corresponding product.
 
+**Update Product**
 
-
+![Confirmation Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/UpdateProduct.PNG)
 
 ## [ BackEnd ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend)
 
