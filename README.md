@@ -22,10 +22,14 @@ The documentation related to the project are the following:
 
 * [Data Base]()
 
+
 ## SRS Document
+
+* [SRS Document]()
 
 
 ## SDD Document
+
 * [SDD Document]()
 
 
@@ -156,7 +160,7 @@ The documentation related to the project are the following:
 
 * [Diego Armando Ulibarri Hernández]()
 
-* [Roberto Valdez Jasso]()
+* [Roberto Valdez Jasso](https://drive.google.com/file/d/16xUvkUUTenKNRYeT7CGs64_u8qdfOinb/view?usp=sharing)
 
 
 

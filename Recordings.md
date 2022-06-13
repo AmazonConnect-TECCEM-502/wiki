@@ -426,7 +426,7 @@ region selection, hearing, among others that customize the call service and the
 needs of the functionality. .
 
 
-* **Credentials**:
+**Credentials**:
 
 In this section,two credentials are needed to get HTTPS certification, 
 and run the call service in a secure way.This credentials are the following:
