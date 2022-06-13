@@ -144,6 +144,7 @@ This component allows to assign an image to each product, extracting it from the
 
 **Product Image**
 
+![Product Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/ProductImage.PNG)
 
 
 * [ **SalesMasterCard.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/SalesMasterCard.js)
