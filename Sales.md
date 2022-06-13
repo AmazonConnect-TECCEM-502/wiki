@@ -234,16 +234,7 @@ The data needed for this model are:
 	1. Order_id: ID of the correspondant order.
 
 	2. Total: Total cost of the order.
-
-
-
 	
-* **NOSQL**: 
-
-The NoSQL model supports us in formatting the storage information relevant to the 
-state of the call and sending it to AWS DynamoDB to create the necessary table for this model.
-	
-
 **Routes**:
 
 | Routes                                           | What the Route Does                                                                                         |
