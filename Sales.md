@@ -129,6 +129,8 @@ This component allows the agent to visualize a list of the available products th
 
 **Product List**
 
+![Product List Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/ProductList.PNG)
+
 
 * [ **ProductCard.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/ProductCard.js)
 
@@ -138,9 +140,11 @@ This component allows the agent to visualize the details of the selected product
  
 * [ **ProductImage.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/ProductImage.js)
 
-This component allows to assign an image to each porduct, extracting it from the S3 bucket according to the product's name. 
+This component allows to assign an image to each product, extracting it from the S3 bucket according to the product's name. 
 
 **Product Image**
+
+
 
 * [ **SalesMasterCard.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/SalesMasterCard.js)
 
@@ -150,9 +154,15 @@ This component is the one that gives functionnality to the rest of the component
 
 This component allows the user to confirm if the agent really wants to add the product to the actual client, displaying a pop-up window. 
 
+**Confirm Product**
+
+![Confirmation Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/Confirmation.PNG)
+
 * [ **NewProduct.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/AdminCards/NewProduct.js)
 
 This component allows the admin to create a new product, by getting the product's name, SKU, category, description, price, stock and image. 
+
+
 
 * [ **UpdateProduct.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/AdminCards/UpdateProduct.js)
 
