@@ -137,6 +137,8 @@ This component allows the agent to visualize a list of the available products th
 This component allows the agent to visualize the details of the selected product, like name, image, price and description of the product. This component also allows the agent to add the product to the client with the Add button, and go back to the prodcut list. 
 
 **Product Example**
+
+![Product Example](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/Product.PNG)
  
 * [ **ProductImage.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/SalesCard/ProductImage.js)
 
