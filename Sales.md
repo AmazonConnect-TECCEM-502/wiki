@@ -277,7 +277,7 @@ The data needed for this model are:
 | ---------- | ------------------------------------------------------------------------------------------------------- |
 | product_id | Must be an existent numerical ID in the database RDS.                                                   |
 
-* **/getOwnedProdcuts**:
+* **/getOwnedProducts**:
 
 | Field       | Validation                                                                                              |
 | ----------- | ------------------------------------------------------------------------------------------------------- |
