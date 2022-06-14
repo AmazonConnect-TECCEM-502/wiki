@@ -22,7 +22,7 @@ order to correctly use the functionality of the area.
 
 Note: For the following commands, you could use `yarn add`,or its equivalent if necessary.
 
-## FrontEnd
+## [FrontEnd](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend)
 
 - toast
 - axios
@@ -65,7 +65,7 @@ Promise based HTTP client for the browser and node.js
 `npm install axios`
 
 
-## BackEnd
+## [BackEnd](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend)
 
 #### Express
 
@@ -189,23 +189,47 @@ The `node:path` module provides utilities for working with file and directory pa
 
 ## Documentation
 
-## FrontEnd
-
-## Nota:  debe ser mas pantallazo y de los fecth que hacen en el frontend (mas visual debes de ser tecnico)
+## [FrontEnd](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend)
 
 **Brief explanation**:
 
+In this section, the agent's dashboard will display an element corresponding with the functionality of the Tecmex client automatic recognition. For this, it is required for the Amazon VoiceID services to be running, as well as the BackEnd server.
 
 **Components**:
 
-**API ENDPOINT**:
+In the FrontEnd section, you will find the description and visuals including the client data card display, a forms to register a new client, and a verification question.
 
-**System validations**:
+* [**ClientCard.js**](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/ClientCard/ClientCard.js)
 
-**System Errors**:
+This component shows the client's data if this is authenticated, describing the client's name, email, phone and products
 
+CLIENTCARD IMAGE
 
-## BackEnd
+* [**ClientForms.js**](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/ClientCard/ClientForms.js)
+
+This component displays the forms to register a new client, asking for the same attributes that the ClientCard.js component shows
+
+CLIENTFORMS IMAGE
+
+* [**ClientInfo.js**](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/ClientCard/ClientInfo.js)
+
+This component storages and displays any data of the client as a row for the ClientCard.js component
+
+* [**ClientName.js**](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/ClientCard/ClientName.js)
+
+This component storages and displays the complete name of the client as a row for the ClientCard.js component
+
+* [**ClientProvider.js**](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/ClientCard/ClientProvider.js)
+
+This component manages all of the client's info with UseStates, creating a context for this components to use
+
+* [**ClientQuestion.js**](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/ClientCard/ClientQuestion.js)
+
+This component displays the verification question in the case of a not authenticated result
+
+CLIENTQUESTION IMAGE
+
+## [BackEnd](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend)
 
 **Brief explanation**:
 
