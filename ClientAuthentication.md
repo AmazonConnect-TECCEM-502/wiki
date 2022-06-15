@@ -93,14 +93,6 @@ in TypeScript projects and to support tools that can read .d.ts files.
 `npm install --save-dev @types/node`
 
 
-#### Luxon CREO QUE NO
-
-`Luxon` is a library for working with dates and times in JavaScript.
-
-
-`npm install --save luxon`
-
-
 #### Sequelize
 
 `Sequelize` is a promise-based Node.js ORM tool for Postgres, 
