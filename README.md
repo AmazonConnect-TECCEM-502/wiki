@@ -10,7 +10,7 @@ The documentation related to the project are the following:
 
 * [Recodings](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Recordings.md)
 
-* [Problems Sugestions]()
+* [Problems Sugestions](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ProblemsSugestions.md)
 
 * [Sales](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Sales.md)
 
@@ -18,9 +18,8 @@ The documentation related to the project are the following:
 
 * [Client Identification](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ClientAuthentication.md)
 
-* [Authentification]()
+* [Authentification](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ClientAuthentication.md)
 
-* [Data Base]()
 
 
 ## SRS Document
@@ -31,6 +30,16 @@ The documentation related to the project are the following:
 ## SDD Document
 
 * [SDD Document]()
+
+
+## Proyect Plan
+
+* [Proyect Plan](https://docs.google.com/spreadsheets/d/1j-eL5tLAYuLl1fxj6zYnXZSwyR9XQF7A/edit?usp=sharing&ouid=105826448299569021198&rtpof=true&sd=true)
+
+
+## User Manual
+
+* [User Manual](https://drive.google.com/file/d/1WHCkhjTSvsf3Z6dpKHVpL2kSMsnqSsXO/view?usp=sharing)
 
 
 ## Design Checklist
@@ -58,52 +67,19 @@ The documentation related to the project are the following:
 
 * [Reports](https://drive.google.com/file/d/12v5He1DqHVX0_OS5kiQsOHcS9Ra3Kgoy/view?usp=sharing)
 
-* [Client Identification]()
+* [Client Identification](https://docs.google.com/document/d/14_QNDCCJyuAMVVVe6p97bh5UxmBTlRL-/edit?usp=sharing&ouid=100023520518789436215&rtpof=true&sd=true)
 
 * [Authentification]()
 
 
 ## Test design Document
 
-* [Recodings]()
+* [Test Design Document](https://drive.google.com/file/d/1nyaCR7KZXPTark8Q1Tq54NR1SCOqHuwn/view?usp=sharing)
 
-* [Problems Sugestions]()
-
-* [Sales]()
-
-* [Reports]()
-
-* [Client Identification]()
-
-* [Authentification]()
-
-* [Data Base]()
 
 ## Test execution log.
 
-* [Recodings]()
-
-* [Problems Sugestions]()
-
-* [Sales]()
-
-* [Reports]()
-
-* [Client Identification]()
-
-* [Authentification]()
-
-* [Data Base]()
-
-
-## Proyect Plan
-
-* [Proyect Plan](https://docs.google.com/spreadsheets/d/1j-eL5tLAYuLl1fxj6zYnXZSwyR9XQF7A/edit?usp=sharing&ouid=105826448299569021198&rtpof=true&sd=true)
-
-
-## User Manual
-
-* [User Manual]()
+* [Test Execution log](https://docs.google.com/spreadsheets/d/1O9d5pJcXjo7XJvkBe6iKvFlGKm_Cbpv8SMTdbSATrcg/edit?usp=sharing)
 
 
 ## Presentations
