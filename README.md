@@ -39,7 +39,7 @@ The documentation related to the project are the following:
 
 ## User Manual
 
-* [User Manual](https://drive.google.com/file/d/1WHCkhjTSvsf3Z6dpKHVpL2kSMsnqSsXO/view?usp=sharing)
+* [User Manual](https://drive.google.com/file/d/1X_oGoWmjCF785xYuWQI3OMMSA5Z9txXL/view?usp=sharing)
 
 
 ## Design Checklist
