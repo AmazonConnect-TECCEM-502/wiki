@@ -100,8 +100,6 @@ eager and lazy loading, read replication and more.
 
 ## [ FrontEnd ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend)
 
-## Nota:  debe ser mas pantallazo y de los fecth que hacen en el frontend (mas visual debes de ser tecnico)
-
 **Brief explanation**:
 
 In this section, the visualization of the project on the web page is created,
