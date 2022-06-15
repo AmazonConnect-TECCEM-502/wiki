@@ -10,7 +10,7 @@ The documentation related to the project are the following:
 
 * [Recodings](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Recordings.md)
 
-* [Problems Sugestions]()
+* [Problems Sugestions](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ProblemsSugestions.md)
 
 * [Sales](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Sales.md)
 
@@ -18,7 +18,7 @@ The documentation related to the project are the following:
 
 * [Client Identification](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ClientAuthentication.md)
 
-* [Authentification]()
+* [Authentification](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ClientAuthentication.md)
 
 * [Data Base]()
 
@@ -31,6 +31,16 @@ The documentation related to the project are the following:
 ## SDD Document
 
 * [SDD Document]()
+
+
+## Proyect Plan
+
+* [Proyect Plan](https://docs.google.com/spreadsheets/d/1j-eL5tLAYuLl1fxj6zYnXZSwyR9XQF7A/edit?usp=sharing&ouid=105826448299569021198&rtpof=true&sd=true)
+
+
+## User Manual
+
+* [User Manual](https://drive.google.com/file/d/1WHCkhjTSvsf3Z6dpKHVpL2kSMsnqSsXO/view?usp=sharing)
 
 
 ## Design Checklist
@@ -94,16 +104,6 @@ The documentation related to the project are the following:
 * [Authentification]()
 
 * [Data Base]()
-
-
-## Proyect Plan
-
-* [Proyect Plan](https://docs.google.com/spreadsheets/d/1j-eL5tLAYuLl1fxj6zYnXZSwyR9XQF7A/edit?usp=sharing&ouid=105826448299569021198&rtpof=true&sd=true)
-
-
-## User Manual
-
-* [User Manual]()
 
 
 ## Presentations
