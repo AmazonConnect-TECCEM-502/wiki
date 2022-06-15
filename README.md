@@ -10,7 +10,7 @@ The documentation related to the project are the following:
 
 * [Recodings](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Recordings.md)
 
-* [Problems Sugestions](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ProblemsSugestions.md)
+* [Problems Suggestions](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ProblemsSuggestions.md)
 
 * [Sales](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Sales.md)
 
