@@ -74,7 +74,7 @@ The documentation related to the project are the following:
 
 ## Test design Document
 
-* [Test Design Document](https://drive.google.com/file/d/1nyaCR7KZXPTark8Q1Tq54NR1SCOqHuwn/view?usp=sharing)
+* [Test Design Document]()
 
 
 ## Test execution log.
