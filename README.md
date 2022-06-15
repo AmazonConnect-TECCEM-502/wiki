@@ -20,7 +20,6 @@ The documentation related to the project are the following:
 
 * [Authentification](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ClientAuthentication.md)
 
-* [Data Base]()
 
 
 ## SRS Document
@@ -68,42 +67,19 @@ The documentation related to the project are the following:
 
 * [Reports](https://drive.google.com/file/d/12v5He1DqHVX0_OS5kiQsOHcS9Ra3Kgoy/view?usp=sharing)
 
-* [Client Identification]()
+* [Client Identification](https://docs.google.com/document/d/14_QNDCCJyuAMVVVe6p97bh5UxmBTlRL-/edit?usp=sharing&ouid=100023520518789436215&rtpof=true&sd=true)
 
 * [Authentification]()
 
 
 ## Test design Document
 
-* [Recodings]()
+* [Test Design Document](https://drive.google.com/file/d/1nyaCR7KZXPTark8Q1Tq54NR1SCOqHuwn/view?usp=sharing)
 
-* [Problems Sugestions]()
-
-* [Sales]()
-
-* [Reports]()
-
-* [Client Identification]()
-
-* [Authentification]()
-
-* [Data Base]()
 
 ## Test execution log.
 
-* [Recodings]()
-
-* [Problems Sugestions]()
-
-* [Sales]()
-
-* [Reports]()
-
-* [Client Identification]()
-
-* [Authentification]()
-
-* [Data Base]()
+* [Test Execution log](https://docs.google.com/spreadsheets/d/1O9d5pJcXjo7XJvkBe6iKvFlGKm_Cbpv8SMTdbSATrcg/edit?usp=sharing)
 
 
 ## Presentations
