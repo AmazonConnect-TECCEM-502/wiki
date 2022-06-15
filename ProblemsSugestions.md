@@ -1,4 +1,0 @@
-
-## Problems Suggestions
-
-Problems Suggestions is the area of the project where the Agents can look for the most common problems that have occurred within the company and how they can be solved.

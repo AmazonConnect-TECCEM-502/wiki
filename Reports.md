@@ -2,6 +2,16 @@
 
 Agent reports is the area of the project where users of the application can see metrics relevant to their performance. Depending on the user's role, they are permitted to see the metrics of a certain subset of agents or only personal KPIs. These reports are developed using Amazon Quicksight, embed to the application's frontend and gather data using a direct connection to the AWS RDS Database.
 
+#
+
+## Few Notes Before Start
+
+This application was divided into various repositories in order to generate the 
+functionalities of each area in a more orderly, clean and concise way, as well
+as to have order in the code sections that will be presented on this wiki.
+
+# 
+
 # Database Schema
 
 To represent the business logic of the application, a database model that features the necessary attributes of each entity was created. Hence, the schema of the datbase is represented as follows:
