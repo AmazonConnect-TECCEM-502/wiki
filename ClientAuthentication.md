@@ -193,7 +193,7 @@ The `node:path` module provides utilities for working with file and directory pa
 
 **Brief explanation**:
 
-In this section, the agent's dashboard will display an element corresponding with the functionality of the Tecmex client automatic recognition. For this, it is required for the Amazon VoiceID services to be running, as well as the BackEnd server.
+In this section, the agent's dashboard will display an element corresponding with the functionality of the Tecmex client automatic recognition. For this, it is required for the Voice ID service to be running, as well as the BackEnd server.
 
 **Components**:
 
@@ -203,13 +203,14 @@ In the FrontEnd section, you will find the description and visuals including the
 
 This component shows the client's data if this is authenticated, describing the client's name, email, phone and products
 
-CLIENTCARD IMAGE
+![Client Card Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/ClientCard.png)
 
 * [**ClientForms.js**](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/ClientCard/ClientForms.js)
 
 This component displays the forms to register a new client, asking for the same attributes that the ClientCard.js component shows
 
-CLIENTFORMS IMAGE
+![Client Forms Image 1](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/ClientForm1.png)
+![Client Forms Image 2](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/ClientForm2.png)
 
 * [**ClientInfo.js**](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/ClientCard/ClientInfo.js)
 
@@ -227,7 +228,7 @@ This component manages all of the client's info with UseStates, creating a conte
 
 This component displays the verification question in the case of a not authenticated result
 
-CLIENTQUESTION IMAGE
+![Client Question Image](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/ClientQuestion.png)
 
 ## [BackEnd](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend)
 
