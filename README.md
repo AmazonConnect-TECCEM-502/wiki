@@ -52,7 +52,7 @@ The documentation related to the project are the following:
 
 * [Reports](https://drive.google.com/file/d/1qFirn-fAMDPhi3cM-DRO1lJZ8ALsyiqG/view?usp=sharing)
 
-* [Client Identification](https://docs.google.com/document/d/14_QNDCCJyuAMVVVe6p97bh5UxmBTlRL-/edit?usp=sharing&ouid=100023520518789436215&rtpof=true&sd=true)
+* [Client Identification](https://docs.google.com/document/d/14GLEkh_1qFjYitnpzPQxVGBW2mPL3kh9TLTryQJbYvs/edit?usp=sharing)
 
 * [Authentification]()
 
@@ -67,7 +67,7 @@ The documentation related to the project are the following:
 
 * [Reports](https://drive.google.com/file/d/12v5He1DqHVX0_OS5kiQsOHcS9Ra3Kgoy/view?usp=sharing)
 
-* [Client Identification](https://docs.google.com/document/d/14_QNDCCJyuAMVVVe6p97bh5UxmBTlRL-/edit?usp=sharing&ouid=100023520518789436215&rtpof=true&sd=true)
+* [Client Identification](https://docs.google.com/document/d/1YhfzuIGwSR9ZChiF1aTZqqs5ikMm48iP8RSdtXGB94A/edit?usp=sharing)
 
 * [Authentification]()
 
