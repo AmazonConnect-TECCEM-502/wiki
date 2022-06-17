@@ -79,7 +79,7 @@ The documentation related to the project are the following:
 
 ## Test execution log.
 
-* [Test Execution log](https://docs.google.com/spreadsheets/d/1O9d5pJcXjo7XJvkBe6iKvFlGKm_Cbpv8SMTdbSATrcg/edit?usp=sharing)
+* [Test Execution log](https://docs.google.com/spreadsheets/d/1ZsxLeyiwxW1noq9LJ9v__RbeXftTAHisYtUafOZ5Nic/edit?usp=sharing)
 
 
 ## Presentations
