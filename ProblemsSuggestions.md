@@ -103,3 +103,42 @@ changes on the solutions of any category
 * [ **AdminCategoriesList.js**: ](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-frontend/blob/master/src/components/AdminCards/Problem%26Solutions/AdminCategoriesList.js)
 
 Component that fetch all the problems for the update problem card.
+
+## [BackEnd](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend)
+
+**Brief explanation**:
+In this section you will find the controller, model and routes for the problem and solution suggestions functionality. 
+
+**Routes**
+![image](https://user-images.githubusercontent.com/65176328/174455524-632434a9-89df-4b40-817a-b1eac9a835ac.png)
+![image](https://user-images.githubusercontent.com/65176328/174455536-24006555-d7b3-4b76-a2c6-8c0111b57619.png)
+![image](https://user-images.githubusercontent.com/65176328/174455542-319deb43-f726-425b-997f-4829ad01d669.png)
+![image](https://user-images.githubusercontent.com/65176328/174455550-b01b833e-af2f-4028-8495-9d7f8e36f583.png)
+
+**Models**\
+[categoryProblem.ts](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/models/categoryProblem.ts): Specify the data to store information about the relation between the caregories and the problems. The data needed for this model is:
+- problem_id
+- category_id  
+
+[problem_category.ts](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/models/problem_category.ts): Specify the data to store information about the categories. The data needed for this model is:
+- category_id
+- category_name
+- category_description
+
+[problem.ts](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/models/problem.ts): Specify the data to store information about the problems. The data needed for this model is:
+- problem_id
+- problem_description
+- created
+- submitted_by
+
+[solution.ts](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/models/solution.ts): Specify the data to store information about solutions. The data needed  for this model is:
+- solution_id
+- solution_description
+- approved_date
+- created
+- problem_id
+- submitted_id
+- approved_by
+
+**Controller**\
+[ProblemCategoryController](https://github.com/AmazonConnect-TECCEM-502/amazonconnect-backend/blob/main/src/controllers/ProblemCategoryController.ts)
