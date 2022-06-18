@@ -347,6 +347,10 @@ The data for this model are:
 | Internal Server Error             | Fatal error                                    | 500           |
 
 
+**Request examples**:
+
+
+
 ## Embedded
 
 **Brief explanation**:
@@ -438,7 +442,7 @@ We created users with the agent role in Amazon Connect and assigned them to a ba
 
 **Lamdbas**:
 
-We used a main lambda function and it is invoked in the Contact Flow. It's purpose is to simply perform a post request to our server so that the authentication of the current customer and his/her phone number get stored in our dynamoDB table.
+We used a main lambda function called postAuthRes and it is invoked in the Contact Flow. Its purpose is to simply perform a post request to our server so that the authentication of the current customer and his/her phone number get stored in our dynamoDB table.
 
 ![Invoke lambda contact block](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/invokeLambda.png)
 
