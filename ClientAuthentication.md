@@ -420,17 +420,33 @@ with cryptographic systems such as SSL.
 
 ## AWS Services
 
-**Buckets**:
+**Amazon Connect Contact Flows and VoiceID**
+
+For the functionality of authenticating the client with his voice, we had to configure the Amazon Connect instance so that voiceID was enabled.
+
+The configuration began by creating a Voice Domain, then we included the Set Voice ID contact block followed by the Set Contact Attribute contact block and the Check Voice ID contact block, all these so that the caller could be authenticated with his voice.
+
+DOMAIN
+
+FLOW
+
+
+We created users with the agent role in Amazon Connect and assigned them to a basic queue so that they could receive the calls. Adding the CCP: Voice ID permission in the security profiles was key in order to allow the agents to enroll callers and view the authentication result the callers received.
+
+PERMISSION
+
 
 **Lamdbas**:
 
+We used a main lambda function and it is invoked in the Contact Flow. It's purpose is to simply perform a post request to our server so that the authentication of the current customer and his/her phone number get stored in our dynamoDB table.
+
+INVOKE FLOW
+
+**Dynamo**
+We create a simple table programatically using Typescript in order to store de authentication status of all the callers of the contact center. Initially, we thought that storing the authentication result in the server was enough but we realized that to allow for multiple callers at a time, we needed a database.
+
+The table has the following format:
 
 
 
 # 
-
-
-## Initialization
-
-
-#
