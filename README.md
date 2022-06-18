@@ -134,7 +134,7 @@ The documentation related to the project are the following:
 
 * [Omar Rodrigo Sorchini Puente]()
 
-* [Diego Armando Ulibarri Hernández]()
+* [Diego Armando Ulibarri Hernández](https://docs.google.com/document/d/10PF1E1UE5LtP41MLYh800j1axCexDZBiXPjPBoX1yCo/edit)
 
 * [Roberto Valdez Jasso](https://drive.google.com/file/d/16xUvkUUTenKNRYeT7CGs64_u8qdfOinb/view?usp=sharing)
 
