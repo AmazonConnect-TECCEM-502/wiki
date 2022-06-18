@@ -359,9 +359,9 @@ The data for this model are:
 
 The following pictures show how the request and response should look.
 
-![Requests12](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/vidReq1.png)
-![Request3](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/vidReq2.png)
-![Request4](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/vidReq3.png)
+![Requests123](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/vidReq1.png)
+![Request4](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/vidReq2.png)
+
 
 
 ## Embedded
