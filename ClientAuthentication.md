@@ -346,9 +346,22 @@ The data for this model are:
 | Success               	        | Client insert succesful                        | 200           |
 | Internal Server Error             | Fatal error                                    | 500           |
 
+* **/reset**:
+
+| Code                  	        | Message            			                 | HTTP Response |
+| --------------------------------- | ---------------------------------------------- | ------------- |
+| Success               	        | Order to restore authentication status received             | 200           |
+| Internal Server Error             | Fatal error                                    | 500           |
+
+
 
 **Request examples**:
 
+The following pictures show how the request and response should look.
+
+![Requests12](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/vidReq1.png)
+![Request3](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/vidReq2.png)
+![Request4](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/vidReq3.png)
 
 
 ## Embedded
