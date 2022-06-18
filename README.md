@@ -114,7 +114,7 @@ The documentation related to the project are the following:
 
 * [Alejandro Enríquez Coronado]()
 
-* [Luis Ignacio Ferro Salinas]()
+* [Luis Ignacio Ferro Salinas](https://drive.google.com/drive/folders/1NL7nlF4jCd1cbMPR92KRNEI3quwDm6rI?usp=sharing)
 
 * [Melissa Garduño Ruiz]()
 
