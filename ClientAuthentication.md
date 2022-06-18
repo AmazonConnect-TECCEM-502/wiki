@@ -426,14 +426,14 @@ For the functionality of authenticating the client with his voice, we had to con
 
 The configuration began by creating a Voice Domain, then we included the Set Voice ID contact block followed by the Set Contact Attribute contact block and the Check Voice ID contact block, all these so that the caller could be authenticated with his voice.
 
-DOMAIN
+![Domain](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/voiceIDDomain.png)
 
-FLOW
+![Contact flow](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/flow.png)
 
 
 We created users with the agent role in Amazon Connect and assigned them to a basic queue so that they could receive the calls. Adding the CCP: Voice ID permission in the security profiles was key in order to allow the agents to enroll callers and view the authentication result the callers received.
 
-PERMISSION
+![Agent permissions](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/voiceIDPermission.png)
 
 
 **Lamdbas**:
