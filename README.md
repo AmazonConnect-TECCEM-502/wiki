@@ -120,7 +120,7 @@ The documentation related to the project are the following:
 
 * [Joan Daniel Guerrero García](https://drive.google.com/drive/folders/1bZHm3fd-DRh5xe3qTrQdY-BcGv3AAtPo?usp=sharing)
 
-* [Javier Emilio Moreno Márquez]()
+* [Javier Emilio Moreno Márquez](https://docs.google.com/spreadsheets/d/1yi5UePaWuy2o2Qbh4g4Uy_DRAId_LZsxeGo7gnB25Ao/edit?usp=sharing)
 
 * [María Fernanda Ramírez Barragán]()
 
