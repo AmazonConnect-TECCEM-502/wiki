@@ -108,7 +108,7 @@ The documentation related to the project are the following:
 
 * [Isaac Andrés Cortés Martínez]()
 
-* [Renata Montserrat De Luna Flores]()
+* [Renata Montserrat De Luna Flores](https://drive.google.com/file/d/1mJZiG5MJ-15FqBRGhszxpxDaOR1vp_tP/view?usp=sharing)
 
 * [Andrea Vianey Díaz Álvarez]()
 
