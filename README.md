@@ -29,7 +29,7 @@ The documentation related to the project are the following:
 
 ## SDD Document
 
-* [SDD Document]()
+* [SDD Document](https://drive.google.com/file/d/1cN7crpCA3uxcD-eLzD_d8bSMrPYcv409/view?usp=sharing)
 
 
 ## Proyect Plan
@@ -108,7 +108,7 @@ The documentation related to the project are the following:
 
 * [Isaac Andrés Cortés Martínez]()
 
-* [Renata Montserrat De Luna Flores]()
+* [Renata Montserrat De Luna Flores](https://drive.google.com/file/d/1mJZiG5MJ-15FqBRGhszxpxDaOR1vp_tP/view?usp=sharing)
 
 * [Andrea Vianey Díaz Álvarez]()
 
