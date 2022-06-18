@@ -110,7 +110,7 @@ The documentation related to the project are the following:
 
 * [Renata Montserrat De Luna Flores](https://drive.google.com/file/d/1mJZiG5MJ-15FqBRGhszxpxDaOR1vp_tP/view?usp=sharing)
 
-* [Andrea Vianey Díaz Álvarez]()
+* [Andrea Vianey Díaz Álvarez](https://drive.google.com/file/d/1-_gXu095RKDwHr3x60kGrkjGYqlzi4jl/view?usp=sharing)
 
 * [Alejandro Enríquez Coronado](https://drive.google.com/file/d/1SQSnT9WXV9kWxZf5SkNHSAh0uqGF6lNk/view?usp=sharing)
 
