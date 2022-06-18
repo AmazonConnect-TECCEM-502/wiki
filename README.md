@@ -24,7 +24,7 @@ The documentation related to the project are the following:
 
 ## SRS Document
 
-* [SRS Document]()
+* [SRS Document](https://docs.google.com/document/d/1gkzxSxvfBDlQri1fup2GqXlUo2A7PbDQZfLaAlkyhBs/edit)
 
 
 ## SDD Document
