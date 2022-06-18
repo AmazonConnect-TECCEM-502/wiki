@@ -52,7 +52,7 @@ The documentation related to the project are the following:
 
 * [Reports](https://drive.google.com/file/d/1qFirn-fAMDPhi3cM-DRO1lJZ8ALsyiqG/view?usp=sharing)
 
-* [Client Identification](https://docs.google.com/document/d/14GLEkh_1qFjYitnpzPQxVGBW2mPL3kh9TLTryQJbYvs/edit?usp=sharing)
+* [Client Identification](https://docs.google.com/document/d/14_QNDCCJyuAMVVVe6p97bh5UxmBTlRL-/edit?usp=sharing&ouid=107988042201745212129&rtpof=true&sd=true)
 
 * [Authentification]()
 
@@ -118,7 +118,7 @@ The documentation related to the project are the following:
 
 * [Melissa Garduño Ruiz]()
 
-* [Joan Daniel Guerrero García]()
+* [Joan Daniel Guerrero García](https://drive.google.com/drive/folders/1bZHm3fd-DRh5xe3qTrQdY-BcGv3AAtPo?usp=sharing)
 
 * [Javier Emilio Moreno Márquez]()
 
