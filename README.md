@@ -124,7 +124,7 @@ The documentation related to the project are the following:
 
 * [María Fernanda Ramírez Barragán]()
 
-* [Emilio Ríos Ochoa]()
+* [Emilio Ríos Ochoa](https://drive.google.com/drive/folders/1p4PkeNS2uyGVURpE3x1YHWPGkaCVIPEe?usp=sharing)
 
 * [José Benjamín Ruiz García](https://drive.google.com/file/d/1COl8WTWVMP4lhDgFEWLaPvoCurDaHL8x/view?usp=sharing)
 
