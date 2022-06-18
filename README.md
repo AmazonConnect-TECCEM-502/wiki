@@ -29,7 +29,7 @@ The documentation related to the project are the following:
 
 ## SDD Document
 
-* [SDD Document]()
+* [SDD Document](https://drive.google.com/file/d/1cN7crpCA3uxcD-eLzD_d8bSMrPYcv409/view?usp=sharing)
 
 
 ## Proyect Plan
