@@ -44,7 +44,7 @@ The documentation related to the project are the following:
 
 ## Design Checklist
 
-* [Recodings](https://drive.google.com/file/d/1ozgMxMfF1-_RuC6WcMJbiMXTiq2p6AOW/view?usp=sharing)
+* [Recodings](https://drive.google.com/file/d/1hJ8YUGeim6ZYOrcnF662u7uxa_BVciqC/view?usp=sharing)
 
 * [Problems Sugestions](https://docs.google.com/document/d/1mmeEVpxPip4X-iG74KczsBIX0P1eaLbGlRJz6UxiLVc/edit?usp=sharing)
 
@@ -59,7 +59,7 @@ The documentation related to the project are the following:
 
 ## Code Checklist
 
-* [Recodings](https://drive.google.com/file/d/1VggmkJwUQwzxHsVbGBxgh4kVAw9cIKIx/view?usp=sharing)
+* [Recodings](https://drive.google.com/file/d/1Ejfxr-P9u2Z7itc9HsxYjAoTMwfkob-c/view?usp=sharing)
 
 * [Problems Sugestions](https://docs.google.com/document/d/1mmeEVpxPip4X-iG74KczsBIX0P1eaLbGlRJz6UxiLVc/edit?usp=sharing)
 
