@@ -448,6 +448,6 @@ We create a simple table programatically using Typescript in order to store de a
 
 The table has the following format:
 
-
+![Table](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/dynamoTable.png)
 
 where phoneNumber is the partition key.
