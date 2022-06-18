@@ -126,7 +126,7 @@ The documentation related to the project are the following:
 
 * [Emilio Ríos Ochoa]()
 
-* [José Benjamín Ruiz García]()
+* [José Benjamín Ruiz García](https://drive.google.com/file/d/1COl8WTWVMP4lhDgFEWLaPvoCurDaHL8x/view?usp=sharing)
 
 * [Rubén Sánchez Mayén]()
 
