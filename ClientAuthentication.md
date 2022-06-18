@@ -440,13 +440,14 @@ We created users with the agent role in Amazon Connect and assigned them to a ba
 
 We used a main lambda function and it is invoked in the Contact Flow. It's purpose is to simply perform a post request to our server so that the authentication of the current customer and his/her phone number get stored in our dynamoDB table.
 
-INVOKE FLOW
+![Invoke lambda contact block](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/Wiki%20Images/invokeLambda.png)
 
-**Dynamo**
+**DynamoDB**
+
 We create a simple table programatically using Typescript in order to store de authentication status of all the callers of the contact center. Initially, we thought that storing the authentication result in the server was enough but we realized that to allow for multiple callers at a time, we needed a database.
 
 The table has the following format:
 
 
 
-# 
+where phoneNumber is the partition key.
