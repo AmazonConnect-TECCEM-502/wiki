@@ -132,7 +132,7 @@ The documentation related to the project are the following:
 
 * [Octavio Andrick Sánchez Perusquia]()
 
-* [Omar Rodrigo Sorchini Puente]()
+* [Omar Rodrigo Sorchini Puente](https://docs.google.com/spreadsheets/d/1BTuN0pYpz3fo_0ZeeCuvDbsBdtOUH8wGRXRh81PiW_U/edit?usp=sharing)
 
 * [Diego Armando Ulibarri Hernández](https://drive.google.com/file/d/1X4OAD913uLlYlxusC9C8kddhWKqXjHOX/view?usp=sharing)
 
