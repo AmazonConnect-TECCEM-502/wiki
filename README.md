@@ -67,7 +67,7 @@ The documentation related to the project are the following:
 
 * [Reports](https://drive.google.com/file/d/12v5He1DqHVX0_OS5kiQsOHcS9Ra3Kgoy/view?usp=sharing)
 
-* [Client Identification](https://docs.google.com/document/d/1YhfzuIGwSR9ZChiF1aTZqqs5ikMm48iP8RSdtXGB94A/edit?usp=sharing)
+* [Client Identification](https://drive.google.com/drive/folders/1hARreWYZv5Ek_bM-SJPPYP4KRO3uktmQ?usp=sharing)
 
 * [Authentification]()
 
