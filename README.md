@@ -102,7 +102,7 @@ The documentation related to the project are the following:
 
 * [Eduardo Aguilar Chías](https://drive.google.com/drive/u/1/folders/1h0XNpDeo9Kcj8yDh-x0K7mVQ54xcVItO)
 
-* [Ariel Álvarez Cortés]()
+* [Ariel Álvarez Cortés](https://drive.google.com/file/d/1xhH43duf-XnHeknDKmbm0kD9ahs_casE/view?usp=sharing)
 
 * [Eric Alexis Castañeda Bravo]()
 
