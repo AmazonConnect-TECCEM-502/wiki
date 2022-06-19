@@ -106,7 +106,7 @@ The documentation related to the project are the following:
 
 * [Eric Alexis Castañeda Bravo]()
 
-* [Isaac Andrés Cortés Martínez]()
+* [Isaac Andrés Cortés Martínez](https://docs.google.com/document/d/1OvK6uT3rREprZck7I7VN7wj1fVSOylDe5trQnRo4rsM/edit?usp=sharing)
 
 * [Renata Montserrat De Luna Flores](https://drive.google.com/file/d/1mJZiG5MJ-15FqBRGhszxpxDaOR1vp_tP/view?usp=sharing)
 
