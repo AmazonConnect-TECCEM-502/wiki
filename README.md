@@ -122,7 +122,7 @@ The documentation related to the project are the following:
 
 * [Javier Emilio Moreno Márquez](https://docs.google.com/spreadsheets/d/1ZxJhXJG0LxalpY_Yuv1AodCzpLJYatwyjIg22BLmR3o/edit?usp=sharing)
 
-* [María Fernanda Ramírez Barragán]()
+* [María Fernanda Ramírez Barragán](https://drive.google.com/drive/folders/1N4KSS8isvkp1jmpf_avD-sL4B60CXOOk)
 
 * [Emilio Ríos Ochoa](https://drive.google.com/drive/folders/1p4PkeNS2uyGVURpE3x1YHWPGkaCVIPEe?usp=sharing)
 
@@ -134,7 +134,7 @@ The documentation related to the project are the following:
 
 * [Omar Rodrigo Sorchini Puente]()
 
-* [Diego Armando Ulibarri Hernández](https://docs.google.com/document/d/10PF1E1UE5LtP41MLYh800j1axCexDZBiXPjPBoX1yCo/edit)
+* [Diego Armando Ulibarri Hernández](https://drive.google.com/drive/folders/1N4KSS8isvkp1jmpf_avD-sL4B60CXOOk)
 
 * [Roberto Valdez Jasso](https://drive.google.com/file/d/16xUvkUUTenKNRYeT7CGs64_u8qdfOinb/view?usp=sharing)
 
