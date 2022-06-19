@@ -104,7 +104,7 @@ The documentation related to the project are the following:
 
 * [Ariel Álvarez Cortés](https://drive.google.com/file/d/1xhH43duf-XnHeknDKmbm0kD9ahs_casE/view?usp=sharing)
 
-* [Eric Alexis Castañeda Bravo]()
+* [Eric Alexis Castañeda Bravo](https://docs.google.com/spreadsheets/d/1-cSe88MYI9ClsTo6Rh1s_CoGwy_WJuDA/edit?usp=sharing&ouid=100223460557270097348&rtpof=true&sd=true)
 
 * [Isaac Andrés Cortés Martínez](https://docs.google.com/document/d/1OvK6uT3rREprZck7I7VN7wj1fVSOylDe5trQnRo4rsM/edit?usp=sharing)
 
