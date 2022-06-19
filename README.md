@@ -18,7 +18,7 @@ The documentation related to the project are the following:
 
 * [Client Identification](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ClientAuthentication.md)
 
-* [Authentification](https://github.com/AmazonConnect-TECCEM-502/wiki/blob/main/ClientAuthentication.md)
+
 
 
 
@@ -54,7 +54,6 @@ The documentation related to the project are the following:
 
 * [Client Identification](https://docs.google.com/document/d/14_QNDCCJyuAMVVVe6p97bh5UxmBTlRL-/edit?usp=sharing&ouid=107988042201745212129&rtpof=true&sd=true)
 
-* [Authentification]()
 
 
 ## Code Checklist
@@ -69,7 +68,6 @@ The documentation related to the project are the following:
 
 * [Client Identification](https://drive.google.com/drive/folders/1hARreWYZv5Ek_bM-SJPPYP4KRO3uktmQ?usp=sharing)
 
-* [Authentification]()
 
 
 ## Test design Document
