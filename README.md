@@ -100,7 +100,7 @@ The documentation related to the project are the following:
 ## Individual logs of defects and times.
 
 
-* [Eduardo Aguilar Chías]([https://drive.google.com/drive/u/1/folders/1h0XNpDeo9Kcj8yDh-x0K7mVQ54xcVItO](https://drive.google.com/drive/folders/1h0XNpDeo9Kcj8yDh-x0K7mVQ54xcVItO?usp=sharing))
+* [Eduardo Aguilar Chías](https://drive.google.com/drive/u/1/folders/1h0XNpDeo9Kcj8yDh-x0K7mVQ54xcVItO](https://drive.google.com/drive/folders/1h0XNpDeo9Kcj8yDh-x0K7mVQ54xcVItO?usp=sharing)
 
 * [Ariel Álvarez Cortés]()
 
